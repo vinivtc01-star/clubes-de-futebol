@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Clubes de Futebol do Mundo</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="cabecalho-site">
+    <div class="container">
+      <h1>Clubes de Futebol do Mundo</h1>
+      <nav class="menu-principal">
+        <a href="#inicio" class="ativo">Início</a>
+        <a href="america-sul.html" class="botao">Conmebol</a>
+        <a href="america-norte-central-caribe.html" class="botao">Concacaf</a>
+        <a href="africa.html" class="botao">CAF</a>
+        <a href="europa.html" class="botao">UEFA</a>
+        <a href="asia.html" class="botao">AFC</a>
+        <a href="oceania.html" class="botao">OFC</a>        
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="destaque">
+      <div class="container">
+        <h2>Bem-vindo ao planeta do futebol!</h2>
+        <p>Descubra os clubes mais famosos do mundo, suas histórias e grandes conquistas.</p>
+      </div>
+    </section>
+
+    <main class="container">
+    <section class="secao-fifa">
+      <h2>FIFA - Federação Internacional de Futebol</h2>
+      <img src="imagens-de-inicio/fifa.png" alt="Logo da FIFA" class="logo-fifa">
+      <div class="caixa-fifa">
+      <p>
+        A <strong>FIFA</strong> (Fédération Internationale de Football Association) é o órgão máximo do futebol mundial.
+        Fundada em 1904, ela é responsável por organizar competições internacionais como a <em>Copa do Mundo</em>
+        e por coordenar as confederações continentais.
+      </p>
+    </div>
+
+    <div>
+      .
+    </div>
+      <p><b>Veja abaixo as confederações que fazem parte da FIFA:</b></p>
+    </section>
+
+     <section class="confederacoes">
+    <article class="cartao-confed">
+        <img src="imagens-de-inicio/conmebol.png" alt="CONMEBOL">
+        <img src="imagens-de-inicio/conmebol-mapa.png"> 
+        <h3>CONMEBOL (América do Sul)</h3>
+        <a href="https://www.conmebol.com/" target="_blank">Acessar site</a>
+      </article>
+
+      <article class="cartao-confed">
+        <img src="imagens-de-inicio/concacaf.png" alt="CONCACAF">
+        <img src="imagens-de-inicio/concacaf-mapa.png">
+        <h3>CONCACAF (Am. do Norte, Central e Caribe)</h3>
+        <a href="https://www.concacaf.com/" target="_blank">Acessar site</a>
+      </article>
+
+      <article class="cartao-confed">
+        <img src="imagens-de-inicio/caf.png" alt="CAF">
+        <img src="imagens-de-inicio/caf-mapa.png">
+        <h3>CAF (África)</h3>
+        <a href="https://www.cafonline.com/" target="_blank">Acessar site</a>
+      </article>
+   
+      <article class="cartao-confed">
+        <img src="imagens-de-inicio/uefa.svg" alt="UEFA">
+        <img src="imagens-de-inicio/uefa-mapa.png">
+        <h3>UEFA (Europa)</h3>
+        <a href="https://www.uefa.com/" target="_blank">Acessar site</a>
+      </article>   
+      
+      <article class="cartao-confed">
+        <img src="imagens-de-inicio/afc.svg" alt="AFC">
+        <img src="imagens-de-inicio/afc-mapa.png">
+        <h3>AFC (Ásia)</h3>
+        <a href="https://www.the-afc.com/" target="_blank">Acessar site</a>
+      </article>
+
+      <article class="cartao-confed">
+        <img src="imagens-de-inicio/ofc.svg" alt="OFC">
+        <img src="imagens-de-inicio/ofc-mapa.png">
+        <h3>OFC (Oceania)</h3>
+        <a href="https://www.oceaniafootball.com/" target="_blank">Acessar site</a>
+      </article>
+    </section>
+  </main>
+  
+            
+    
+  </main>
+
+  <footer class="rodape-site">
+    <div class="container">
+      <b><p>© <span id="ano"></span> Clubes de Futebol do Mundo</p></b>
+      <b><p>Criado em: 22/10/2025</p></b>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

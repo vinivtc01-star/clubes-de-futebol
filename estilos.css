@@ -1,0 +1,331 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Fonte da página*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1b1b1b;
+  background-image: url(imagens-de-fundo/bola.jpg);
+  background-size: cover;       /* cobre toda a tela */
+  background-position: center;  /* centraliza */
+  background-repeat: no-repeat; /* não repete */
+  background-attachment: fixed; /* fixa o fundo ao rolar */
+}
+
+/* ===== Cabeçalho ===== */
+.cabecalho-site {
+ background-image: url(imagens-de-fundo/fifa.png);
+ background-position: center;
+  background-color: #003366;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  height: 150px;
+}
+
+.menu-principal {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+/*Início, Clubes, Regiões, Sobre */
+.menu-principal a {
+  background-color: #555;
+  color: #fff9f9;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 2px solid #554e4e
+}
+
+.menu-principal a.ativo,
+.menu-principal a:hover {
+  background-color: rgba(90deg,#0b3d91,#1b75bb);
+}
+
+/* ===== Seção principal ===== */
+.destaque {
+  background-image: url(imagens-de-fundo/campo.webp); 
+  background-position: center;
+  text-align: center;
+  color: 90deg,#0b3d91,#1b75bb;
+  padding: 80px 20px;
+  background-color: rgba(18, 116, 196, 0.938);
+}
+
+/* ===== Cartões dos clubes ===== */
+.grade-clubes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+/*informações do clube*/
+.cartao-clube {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(56, 10, 68, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  text-align: left;
+}
+
+.cartao-clube:hover {
+  transform: scale(1.03);
+}
+
+/*Imagem do Clube*/
+.cartao-clube img {
+  width: 100%;
+  height: 120px;
+  object-fit: contain;
+  padding: 1rem;
+  background-color: white;
+}
+
+.corpo-cartao {
+  padding: 0.9rem;
+}
+
+/*Link dos clubes*/
+.a{
+  display: inline-block;
+  margin-top: 8px;
+  background-color: #003366;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;  
+ }
+
+.link-clube{
+color: white;
+text-decoration: none;
+}
+
+.pequeno {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+/* ===== Rodapé ===== */
+.rodape-site {
+  background-image: url(imagens-de-fundo/fifa.png);
+  background-position: center;   
+  text-align: center;
+  padding: 1rem;
+  color: #0a0a0a;
+  margin-top: 2rem;
+}
+
+/* === CONTEÚDO === */
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.logo-fifa {
+  width: 150px;
+  margin: 15px auto;
+  display: block;
+}
+
+/*início do site*/
+
+/* === CONFEDERAÇÕES === */
+.confederacoes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.caixa-fifa{
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  transition: transform 0.2s;
+}
+
+.cartao-confed {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  transition: transform 0.2s;
+}
+
+.cartao-confed:hover {
+  transform: scale(1.05);
+}
+
+.cartao-confed img {
+  width: 100%;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.cartao-confed h3 {
+  margin-top: 10px;
+  color: #003366;
+}
+
+.cartao-confed a {
+  display: inline-block;
+  margin-top: 8px;
+  background-color: #003366;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cartao-confed a:hover {
+  background-color: #0055cc;
+}
+
+/* Alinhamento do nome da confederação com o logo da confederação */
+.linha-federacao {
+  display: flex;
+  align-items: center;     /* centraliza verticalmente */
+  justify-content: center; /* centraliza horizontalmente */
+  gap: 10px;               /* espaço entre o texto e a imagem */
+  text-align: center;      /* garante centralização de texto dentro */
+  margin: 20px 0;          /* espaço acima e abaixo */
+}
+
+/* Logo ao lado do nome da confederação do país */
+.logo-pequeno {
+  width: 70px;            /* tamanho da imagem */
+  height: auto;            /* mantém proporção */
+}
+
+/* Alinhamento do nome do país com a bandeira do país */
+.linha-país{
+   display: flex;
+  align-items: left;     /* centraliza verticalmente */
+  justify-content: left; /* centraliza horizontalmente */
+  gap: 10px;               /* espaço entre o texto e a imagem */
+  text-align: left;      /* garante centralização de texto dentro */
+  margin: 20px 0;          /* espaço acima e abaixo */
+}
+
+/* Logo ao lado do nome da bandeira do país */
+.logo-pequeno1{
+  width: 40px;            /* tamanho da imagem */
+  height: auto;            /* mantém proporção */
+}
+
+/* Estilo para links de destaque <a>*/
+.link-destaque {
+  color: black;            /* cor normal */
+  text-decoration: none;   /* tira o sublinhado */
+}
+
+.link-destaque:hover {
+  color: blue;             /* cor ao passar o mouse */
+  text-decoration: underline; /* opcional */
+}
+
+/*Alinha as sub-regiões dos paises da CONCACAF (NAFU, UNCAF e CFU)*/
+.titulo-canto {
+  text-align: left;
+}
+
+/* Federações regionais da CAF (Mapa da África no topo) */
+.card {
+    width: 280px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Lista */
+.lista-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-links li {
+    margin: 6px 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Cores iguais ao mapa */
+.unaf { color: #5A7F32; }     /* verde */
+.wafu { color: #F7D21E; }     /* amarelo */ 
+.uniffac { color: #C03A72; }  /* rosa */
+.cecafa { color: #3269B7; }   /* azul */
+.cosafa { color: #E07C3C; }   /* laranja */
+
+.lista-links a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Efeito hover: fica preto */
+.lista-links a:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* Centralizar o cartão */
+.center-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/*SubregiõesdaÁsia (AFC)*/
+.titulo-canto {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* espaçamento entre a imagem e o texto */
+}
+
+/*SubregiõesdaÁsia (AFC) - tamanho da imagem*/
+.SubregiõesdaÁsia {
+    width: 70px;  /* ajuste como quiser */
+    height: auto;
+    cursor: pointer;
+}
+
+.link-destaque {
+    color: black;
+    text-decoration: none;
+}
+
+.link-destaque:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
