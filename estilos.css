@@ -1,3 +1,8 @@
+/* Reset básico */
+:root {
+  color-scheme: light;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -34,7 +39,7 @@ body {
 
 /*Início, Clubes, Regiões, Sobre */
 .menu-principal a {
-  background-color: #555;
+  background-color: #555; 
   color: #fff9f9;
   text-decoration: none;
   padding: 5px 10px;
@@ -48,13 +53,13 @@ body {
 }
 
 /* ===== Seção principal ===== */
-.destaque {
-  background-image: url(imagens-de-fundo/campo.webp); 
+.destaque { 
   background-position: center;
   text-align: center;
-  color: 90deg,#0b3d91,#1b75bb;
+  color: rgb(2, 2, 2);
   padding: 80px 20px;
-  background-color: rgba(18, 116, 196, 0.938);
+  background: linear-gradient(90deg, #0b3d91, #1b75bb);
+  background-image: url(imagens-de-fundo/campo.webp);
 }
 
 /* ===== Cartões dos clubes ===== */
@@ -67,7 +72,9 @@ body {
 
 /*informações do clube*/
 .cartao-clube {
-  background: white;
+  background-color: #ffffff;   /* força fundo branco */
+  color: #000000;              /* força texto preto */
+  background: white;              
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(56, 10, 68, 0.1);
   overflow: hidden;
@@ -90,6 +97,8 @@ body {
 
 .corpo-cartao {
   padding: 0.9rem;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 /*Link dos clubes*/
@@ -226,18 +235,7 @@ text-decoration: none;
   height: auto;            /* mantém proporção */
 }
 
-/* Estilo para links de destaque <a>*/
-.link-destaque {
-  color: black;            /* cor normal */
-  text-decoration: none;   /* tira o sublinhado */
-}
-
-.link-destaque:hover {
-  color: blue;             /* cor ao passar o mouse */
-  text-decoration: underline; /* opcional */
-}
-
-/*Alinha as sub-regiões dos paises da CONCACAF (NAFU, UNCAF e CFU)*/
+/*Alinha as sub-regiões dos paises da CONCACAF (NAFU, UNCAF e CFU) e das subregiões da Ásia (AFC) */
 .titulo-canto {
   text-align: left;
 }
@@ -311,13 +309,22 @@ text-decoration: none;
     cursor: pointer;
 }
 
+/* Estilo para links de destaque <a> da CONCACAF (ex:NAFU) e das Subregiões da Ásia (ex:AFF) - (AFC) */
 .link-destaque {
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
+/* Efeito hover: fica preto ao passar o mouse */
 .link-destaque:hover {
     color: rgb(0, 0, 0);
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
 }
 
 
