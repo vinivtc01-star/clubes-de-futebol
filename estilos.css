@@ -9,12 +9,6 @@
   padding: 0;
 }
 
-/* Evita barra de rolagem horizontal */
-html, body {
-  width: 100%;
-  overflow-x: hidden;
-}
-
 /*Fonte da página*/
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -39,8 +33,10 @@ body {
 
 .menu-principal {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   margin-top: 0.5rem;
+  justify-content: center; 
 }
 
 /*Início, Clubes, Regiões, Sobre */
@@ -327,9 +323,10 @@ text-decoration: none;
 }
 
 /* Ajustes para dispositivos móveis */
-@media (max-width: 768px) {
-  body {
-    background-attachment: scroll;
+@media (max-width: 600px) {
+  .menu-principal a {
+    font-size: 14px;
+    padding: 6px 8px;
   }
 }
 
