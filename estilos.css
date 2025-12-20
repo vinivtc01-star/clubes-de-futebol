@@ -24,10 +24,11 @@ body {
 .cabecalho-site {
  background-image: url(imagens-de-fundo/fifa.png); /* imagem de fundo */
  background-position: center; /* centraliza a imagem */
-  background-color: #003366; /* cor de fundo alternativa */
-  color: black; /* cor do texto */
-  text-align: center; /* centraliza o texto */
-  padding: 20px; /* espaçamento interno */  
+ background-color: #003366; /* cor de fundo alternativa */
+ color: black; /* cor do texto */
+ text-align: center; /* centraliza o texto */
+ padding: 20px; /* espaçamento interno */  
+ min-height: 170px; /* altura mínima */
 }
 
 .menu-principal {
