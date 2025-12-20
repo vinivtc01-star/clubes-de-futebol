@@ -13,7 +13,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #1b1b1b;
-  background-image: url(imagens-de-fundo/bola.jpg);
+  background-image: url(imagens-de-fundo/bola.jpg); /* imagem de fundo */
   background-size: cover;       /* cobre toda a tela */
   background-position: center;  /* centraliza */
   background-repeat: no-repeat; /* não repete */
@@ -22,13 +22,12 @@ body {
 
 /* ===== Cabeçalho ===== */
 .cabecalho-site {
- background-image: url(imagens-de-fundo/fifa.png);
- background-position: center;
-  background-color: #003366;
-  color: black;
-  text-align: center;
-  padding: 20px;
-  height: 150px;
+ background-image: url(imagens-de-fundo/fifa.png); /* imagem de fundo */
+ background-position: center; /* centraliza a imagem */
+  background-color: #003366; /* cor de fundo alternativa */
+  color: black; /* cor do texto */
+  text-align: center; /* centraliza o texto */
+  padding: 20px; /* espaçamento interno */  
 }
 
 .menu-principal {
