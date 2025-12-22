@@ -21,6 +21,17 @@
       <a href="europa.html" class="ativo">UEFA</a>
       <a href="asia.html" class="ativo">AFC</a>
       <a href="oceania.html" class="ativo">OFC</a>
+
+       <!-- 🔍 BUSCA -->
+  <div class="busca-container">
+  <input
+    type="text"
+    id="campo-busca"
+    placeholder="Pesquisar clube..."
+    autocomplete="off"
+  >
+  <ul id="lista-sugestoes"></ul>
+</div>
     </nav>
   </header>
 
@@ -48,7 +59,7 @@
       .
     </div>
 
-    <div class="linha-federacao">
+    <div class="linha-federacao" >
       <h2>
         <p><b>Associação do Futebol Argentino (AFA)</b></p>
       </h2>
@@ -57,7 +68,7 @@
       </a>
     </div>
 
-    <div class="linha-país">
+    <div class="linha-país" >
       <p><b>Clubes da Argentina:</b></p>
       <img src="bandeira-dos-paises/argentina.webp" alt="Logo da Bandeira do País" class="logo-pequeno1">
     </div>
@@ -67,37 +78,35 @@
         <div class="grade-clubes">
 
           <!-- Boca Juniors -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="boca-juniors">
             <img src="times/boca-juniors.png" alt="Escudo do Boca Juniors ">
             <div class="corpo-cartao">
               <h3>Boca Juniors</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1905</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.bocajuniors.com.ar/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--River Plate-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="river-plate">
             <img src="times/river-plate.svg" alt="Escudo do River Plate">
             <div class="corpo-cartao">
               <h3>River Plate</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1901</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.cariverplate.com.ar/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Independiente-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="independiente">
             <img src="times/independiente-arg.png" alt="Escudo do Independiente">
             <div class="corpo-cartao">
               <h3>Independiente</h3>
@@ -111,7 +120,7 @@
           </article>
 
           <!--Racing Club-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="racing-club">
             <img src="times/racing-club.svg" alt="Escudo do Racing Club">
             <div class="corpo-cartao">
               <h3>Racing Club</h3>
@@ -125,7 +134,7 @@
           </article>
 
           <!--San Lorenzo-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="san-lorenzo">
             <img src="times/san-lorenzo.png" alt="Escudo do San Lorenzo">
             <div class="corpo-cartao">
               <h3>San Lorenzo</h3>
@@ -139,7 +148,7 @@
           </article>
 
           <!--Estudiantes de La Plata-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="estudiantes-de-la-plata">
             <img src="times/estudiantes-de-la-plata.png" alt="Escudo do Estudiantes de La Plata">
             <div class="corpo-cartao">
               <h3>Estudiantes de La Plata</h3>
@@ -153,7 +162,7 @@
           </article>
 
           <!--Newell’s Old Boys  -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="newells-old-boys">
             <img src="times/newells-old-boys.png" alt="Escudo do Newell’s Old Boys">
             <div class="corpo-cartao">
               <h3>Newell’s Old Boys</h3>
@@ -167,7 +176,7 @@
           </article>
 
           <!--Rosario Central-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="rosario-central">
             <img src="times/rosario-central.png" alt="Escudo do Rosario Central">
             <div class="corpo-cartao">
               <h3>Rosario Central</h3>
@@ -181,7 +190,7 @@
           </article>
 
           <!--Vélez Sarsfield-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="velez-sarsfield">
             <img src="times/velez-sarsfield.png" alt="Escudo do Vélez Sarsfield">
             <div class="corpo-cartao">
               <h3>Vélez Sarsfield</h3>
@@ -195,7 +204,7 @@
           </article>
 
           <!--Argentinos Juniors-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="argentinos-juniors">
             <img src="times/argentinos-juniors.png" alt="Escudo do Argentinos Juniors">
             <div class="corpo-cartao">
               <h3>Argentinos Juniors</h3>
@@ -209,7 +218,7 @@
           </article>
 
           <!--Huracán-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="huracan">
             <img src="times/club-atletico-huracan.png" alt="Escudo do Huracán">
             <div class="corpo-cartao">
               <h3>Club Atlético Huracán</h3>
@@ -223,7 +232,7 @@
           </article>
 
           <!--Gimnasia y Esgrima La Plata-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="gimnasia-y-esgrima-la-plata">
             <img src="times/gimnasia-y-esgrima-la-plata.png" alt="Escudo do Gimnasia y Esgrima La Plata">
             <div class="corpo-cartao">
               <h3>Gimnasia y Esgrima La Plata</h3>
@@ -237,22 +246,21 @@
           </article>
 
           <!--Gimnasia y Esgrima de Mendoza -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="gimnasia-y-esgrima-de-mendoza">
             <img src="times/gimnasia-y-esgrima-de-mendoza.png" alt="Escudo do Gimnasia y Esgrima de Mendoza">
             <div class="corpo-cartao">
               <h3>Gimnasia y Esgrima de Mendoza</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1908</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://gimnasiayesgrimamza.com.ar/wp/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Lanús-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="lanus">
             <img src="times/club-atletico-lanus.png" alt="Escudo do Lanús">
             <div class="corpo-cartao">
               <h3>Club Atlético Lanús</h3>
@@ -266,7 +274,7 @@
           </article>
 
           <!--Banfield-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="banfield">
             <img src="times/club-atletico-banfield.png" alt="Escudo do Banfield">
             <div class="corpo-cartao">
               <h3>Club Atlético Banfield</h3>
@@ -280,7 +288,7 @@
           </article>
 
           <!--Talleres de Córdoba-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="talleres-de-cordoba">
             <img src="times/talleres-de-cordoba.png" alt="Escudo do Talleres de Córdoba">
             <div class="corpo-cartao">
               <h3>Talleres de Córdoba</h3>
@@ -294,7 +302,7 @@
           </article>
 
           <!--Colón de Santa Fe-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="colon-de-santa-fe">
             <img src="times/club-atletico-colon.png" alt="Escudo do Colón de Santa Fe">
             <div class="corpo-cartao">
               <h3>Club Atlético Colón</h3>
@@ -308,7 +316,7 @@
           </article>
 
           <!--Unión de Santa Fe-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="union-de-santa-fe">
             <img src="times/union-de-santa-fe.png" alt="Escudo do Unión de Santa Fe">
             <div class="corpo-cartao">
               <h3>Unión de Santa Fe</h3>
@@ -322,7 +330,7 @@
           </article>
 
           <!-- Defensa y Justicia -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="defensa-y-justicia">
             <img src="times/defensa-y-justicia.png" alt="Escudo do Defensa y Justicia">
             <div class="corpo-cartao">
               <h3>Defensa y Justicia</h3>
@@ -336,7 +344,7 @@
           </article>
 
           <!-- Godoy Cruz -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="godoy-cruz">
             <img src="times/godoy-cruz-antonio-tomba.png" alt="Escudo do Godoy Cruz">
             <div class="corpo-cartao">
               <h3>Godoy Cruz</h3>
@@ -350,7 +358,7 @@
           </article>
 
           <!-- Arsenal de Sarandí -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="arsenal-de-sarandi">
             <img src="times/arsenal-de-sarandi-arg.png" alt="Escudo do Arsenal de Sarandí">
             <div class="corpo-cartao">
               <h3>Arsenal de Sarandí</h3>
@@ -364,7 +372,7 @@
           </article>
 
           <!-- Atlético Tucumán -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="atletico-tucuman">
             <img src="times/atletico-tucuman.svg" alt="Escudo do Atlético Tucumán">
             <div class="corpo-cartao">
               <h3>Atlético Tucumán</h3>
@@ -378,7 +386,7 @@
           </article>
 
           <!-- Tigre -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="tigre">
             <img src="times/tigre-arg.svg" alt="Escudo do Tigre">
             <div class="corpo-cartao">
               <h3>Tigre</h3>
@@ -392,7 +400,7 @@
           </article>
 
           <!-- Platense -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="platense">
             <img src="times/platense-arg.png" alt="Escudo do Platense">
             <div class="corpo-cartao">
               <h3>Platense</h3>
@@ -406,7 +414,7 @@
           </article>
 
           <!-- Barracas Central -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="barracas-central">
             <img src="times/barracas-central.svg" alt="Escudo do Barracas Central">
             <div class="corpo-cartao">
               <h3>Barracas Central</h3>
@@ -420,10 +428,10 @@
           </article>
 
           <!-- Central Córdoba -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="central-cordoba">
             <img src="times/central-cordoba.png" alt="Escudo do Central Córdoba">
             <div class="corpo-cartao">
-              <h3>Central Córdoba (SdE)</h3>
+              <h3>Central Córdoba</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1919</p>
               <p><b>Ir para o site:</b></p>
@@ -434,7 +442,7 @@
           </article>
 
           <!-- Instituto de Córdoba -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="instituto-de-cordoba">
             <img src="times/instituto-de-cordoba.png" alt="Escudo do Instituto de Córdoba">
             <div class="corpo-cartao">
               <h3>Instituto de Córdoba</h3>
@@ -448,7 +456,7 @@
           </article>
 
           <!-- Sarmiento -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="sarmiento">
             <img src="times/sarmiento-arg.png" alt="Escudo do Sarmiento">
             <div class="corpo-cartao">
               <h3>Sarmiento</h3>
@@ -462,7 +470,7 @@
           </article>
 
           <!-- Belgrano -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="belgrano-de-cordoba">
             <img src="times/belgrano.png" alt="Escudo do Belgrano de Córdoba">
             <div class="corpo-cartao">
               <h3>Belgrano de Córdoba</h3>
@@ -476,7 +484,7 @@
           </article>
 
           <!-- Patronato -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="patronato">
             <img src="times/patronato.png" alt="Escudo do Patronato">
             <div class="corpo-cartao">
               <h3>Patronato</h3>
@@ -490,7 +498,7 @@
           </article>
 
           <!-- Aldosivi -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="aldosivi">
             <img src="times/aldosivi.png" alt="Escudo do Aldosivi">
             <div class="corpo-cartao">
               <h3>Aldosivi</h3>
@@ -504,133 +512,125 @@
           </article>
 
           <!--Independiente Rivadavia -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="independiente-rivadavia">
             <img src="times/independiente-rivadavia.png" alt="Escudo do Independiente Rivadavia ">
             <div class="corpo-cartao">
               <h3>Independiente Rivadavia</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1913</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://independienterivadavia.com.ar/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Boca Unidos -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="boca-unidos">
             <img src="times/boca-unidos.png" alt="Escudo do Boca Unidos">
             <div class="corpo-cartao">
               <h3>Boca Unidos</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1927</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Quilmes -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="quilmes">
             <img src="times/quilmes.png" alt="Escudo do Quilmes ">
             <div class="corpo-cartao">
               <h3>Quilmes</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1887</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.quilmesaclub.org.ar/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Almagro -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="almagro">
             <img src="times/almagro.png" alt="Escudo do Almagro ">
             <div class="corpo-cartao">
               <h3>Almagro</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1911</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--San Martín de San Juan -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="san-martin-de-san-juan">
             <img src="times/san-martin-de-san-juan-arg.png" alt="Escudo do San Martín de San Juan">
             <div class="corpo-cartao">
               <h3>San Martín de San Juan</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1907</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.casanmartinsj.com/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--San Martín de Tucumán -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="san-martin-de-tucuman">
             <img src="times/san-martin-de-tucuman.png" alt="Escudo do San Martín de Tucumán">
             <div class="corpo-cartao">
               <h3>San Martín de Tucumán</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1909</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://clubatleticosanmartin.com/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Gimnasia de Jujuy -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="gimnasia-de-jujuy">
             <img src="times/gimnasia-de-jujuy.png" alt="Escudo do Gimnasia de Jujuy">
             <div class="corpo-cartao">
               <h3>Gimnasia de Jujuy</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1931</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.gyejoficial.com.ar/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Ferro Carril Oeste -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="ferro-carril-oeste">
             <img src="times/ferro-carril-oeste.png" alt="Escudo do Ferro Carril Oeste">
             <div class="corpo-cartao">
               <h3>Ferro Carril Oeste</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1904</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.ferrocarriloeste.org.ar/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Olimpo -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="olimpo">
             <img src="times/olimpo.png" alt="Escudo do Olimpo ">
             <div class="corpo-cartao">
               <h3>Olimpo</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1910</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.clubolimpo.com.ar/landing/" target="_blank" class="link-clube">Acessar site</a>
               </div>
@@ -638,7 +638,7 @@
           </article>
 
           <!--Tristán Suárez -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="tristan-suarez">
             <img src="times/tristan-suarez.png" alt="Escudo do Tristán Suárez  ">
             <div class="corpo-cartao">
               <h3>Tristán Suárez</h3>
@@ -653,356 +653,333 @@
           </article>
 
           <!--Chacarita Juniors -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="chacarita-juniors">
             <img src="times/chacarita-juniors.png" alt="Escudo do Chacarita Juniors ">
             <div class="corpo-cartao">
               <h3>Chacarita Juniors</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1906</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--All Boys -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="all-boys">
             <img src="times/all-boys.png" alt="Escudo do All Boys">
             <div class="corpo-cartao">
               <h3>All Boys</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1913</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Atlético de Rafaela -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="atletico-de-rafaela">
             <img src="times/atletico-de-rafaela.png" alt="Escudo do Atlético de Rafaela">
             <div class="corpo-cartao">
               <h3>Atlético de Rafaela</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1907</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://atleticorafaela.com.ar/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Los Andes -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="los-andes">
             <img src="times/los-andes.png" alt="Escudo do Los Andes">
             <div class="corpo-cartao">
               <h3>Los Andes</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1917</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://losandesoficial.com/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Deportivo Riestra -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="deportivo-riestra">
             <img src="times/deportivo-riestra.png" alt="Escudo do Deportivo Riestra">
             <div class="corpo-cartao">
               <h3>Deportivo Riestra</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1931</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://clubdeportivoriestra.wordpress.com/sede-social/" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Agropecuario -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="agropecuario">
             <img src="times/agropecuario.png" alt="Escudo do Agropecuario">
             <div class="corpo-cartao">
               <h3>Agropecuario</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 2011</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Brown de Adrogué -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="brown-de-adrogue">
             <img src="times/brown-de-adrogue.png" alt="Escudo do Brown de Adrogué">
             <div class="corpo-cartao">
               <h3>Brown de Adrogué</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1945</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Club_Atl%C3%A9tico_Brown" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Defensores de Belgrano -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="defensores-de-belgrano">
             <img src="times/defensores-de-belgrano.png" alt="Escudo do Defensores de Belgrano">
             <div class="corpo-cartao">
               <h3>Defensores de Belgrano</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1906</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.defeweb.com.ar/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Deportivo Morón -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="deportivo-moron">
             <img src="times/deportivo-moron.jpg" alt="Escudo do Deportivo Morón">
             <div class="corpo-cartao">
               <h3>Deportivo Morón</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1947</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://deportivomoron.com.ar/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Almirante Brown -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="almirante-brown">
             <img src="times/almirante-brown.png" alt="Escudo do Almirante Brown">
             <div class="corpo-cartao">
               <h3>Almirante Brown</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1912</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.almirantebrown.org.ar/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Atlético Mitre -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="atletico-mitre">
             <img src="times/atletico-mitre.png" alt="Escudo do Atlético Mitre">
             <div class="corpo-cartao">
               <h3>Atlético Mitre</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1907</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Club_Atl%C3%A9tico_Mitre" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Nueva Chicago -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="nueva-chicago">
             <img src="times/nueva-chicago.png" alt="Escudo do Nueva Chicago">
             <div class="corpo-cartao">
               <h3>Nueva Chicago</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1911</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Club_Atl%C3%A9tico_Nueva_Chicago" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Santamarina -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="santamarina">
             <img src="times/santamarina.png" alt="Escudo do Santamarina">
             <div class="corpo-cartao">
               <h3>Santamarina</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1913</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Club_y_Biblioteca_Ram%C3%B3n_Santamarina" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Club Atlético Temperley -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="club-atletico-temperley">
             <img src="times/club-atletico-temperley.png" alt="Escudo do Club Atlético Temperley">
             <div class="corpo-cartao">
               <h3>Club Atlético Temperley</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1912</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.temperley.org.ar/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Villa Dálmine -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="villa-dalmine">
             <img src="times/villa-dalmine.png" alt="Escudo do Villa Dálmine">
             <div class="corpo-cartao">
               <h3>Villa Dálmine</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1913</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://villadalmine.com.ar/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Acassuso-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="acassuso">
             <img src="times/acassuso.png" alt="Escudo do Acassuso">
             <div class="corpo-cartao">
               <h3>Acassuso </h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1922</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://clubacassuso.com.ar/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Argentino de Quilmes -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="argentino-de-quilmes">
             <img src="times/argentino-de-quilmes.png" alt="Escudo do Argentino de Quilmes">
             <div class="corpo-cartao">
               <h3>Argentino de Quilmes </h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1899</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.argentinoquilmes.com.ar/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--El Porvenir -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="el-porvenir">
             <img src="times/el-porvenir.png" alt="Escudo do El Porvenir">
             <div class="corpo-cartao">
               <h3>El Porvenir </h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1915</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Club_El_Porvenir" target="_blank" class="link-clube">Acessar
                   site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Defensores de Cambaceres -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="defensores-de-cambaceres">
             <img src="times/defensores-de-cambaceres.png" alt="Escudo do Defensores de Cambaceres">
             <div class="corpo-cartao">
               <h3>Defensores de Cambaceres </h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1921</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://clubcambaceres.com/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Atlanta-ARG -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="atlanta-arg">
             <img src="times/atlanta-arg.png" alt="Escudo do Atlanta">
             <div class="corpo-cartao">
               <h3>Atlanta (ARG)</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1904</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.caatlanta.com.ar/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Colegiales -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="colegiales">
             <img src="times/colegiales.png" alt="Escudo do Colegiales">
             <div class="corpo-cartao">
               <h3>Colegiales</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1908</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Club_Atl%C3%A9tico_Colegiales_(Munro)" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Comunicaciones -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="comunicaciones">
             <img src="times/comunicaciones.png" alt="Escudo do Comunicaciones">
             <div class="corpo-cartao">
               <h3>Comunicaciones</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1931</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.clubcomunicaciones.com.ar/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Club Deportivo Español -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="club-deportivo-espanol">
             <img src="times/club-deportivo-espanol.png" alt="Escudo do Club Deportivo Español">
             <div class="corpo-cartao">
               <h3>Club Deportivo Español</h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong> 1956</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Club_Deportivo_Espa%C3%B1ol_de_Buenos_Aires" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
-            </div>
+            </div> 
           </article>
 
           <!-- -->
@@ -1012,11 +989,10 @@
               <h3></h3>
               <p><strong>País:</strong> Argentina</p>
               <p><strong>Fundação:</strong></p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
@@ -1042,187 +1018,175 @@
         <div class="grade-clubes">
 
           <!--The Strongest -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="the-strongest">
             <img src="times/the-strongest.jpg" alt="Escudo do The Strongest">
             <div class="corpo-cartao">
               <h3>The Strongest</h3>
               <p><strong>País:</strong> Bolívia</p>
               <p><strong>Fundação:</strong> 1908</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://club-thestrongest.com/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Bolívar -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="bolivar">
             <img src="times/bolivar.png" alt="Escudo do Bolívar">
             <div class="corpo-cartao">
               <h3>Bolívar</h3>
               <p><strong>País:</strong> Bolívia</p>
               <p><strong>Fundação:</strong> 1925</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.clubbolivar.com/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Jorge Wilstermann -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="jorge-wilstermann">
             <img src="times/jorge-wilstermann.png" alt="Escudo do Jorge Wilstermann">
             <div class="corpo-cartao">
               <h3>Jorge Wilstermann</h3>
               <p><strong>País:</strong> Bolívia</p>
               <p><strong>Fundação:</strong> 1949</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://clubjorgewilstermann.bo/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Blooming -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="blooming">
             <img src="times/blooming.png" alt="Escudo do Blooming">
             <div class="corpo-cartao">
               <h3>Blooming</h3>
               <p><strong>País:</strong> Bolívia</p>
               <p><strong>Fundação:</strong> 1946</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.club-blooming.com/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Oriente Petrolero -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="oriente-petrolero">
             <img src="times/oriente-petrolero.png" alt="Escudo do Oriente Petrolero">
             <div class="corpo-cartao">
               <h3>Oriente Petrolero</h3>
               <p><strong>País:</strong> Bolívia</p>
               <p><strong>Fundação:</strong> 1955</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.orientepetrolero.com.bo/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Aurora -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="aurora">
             <img src="times/aurora.png" alt="Escudo do Aurora">
             <div class="corpo-cartao">
               <h3>Aurora</h3>
               <p><strong>País:</strong> Bolívia</p>
               <p><strong>Fundação:</strong> 1935</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://clubaurora.bo/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Nacional Potosí -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="nacional-potosi">
             <img src="times/nacional-potosi.png" alt="Escudo do Nacional Potosí">
             <div class="corpo-cartao">
               <h3>Nacional Potosí</h3>
               <p><strong>País:</strong> Bolívia</p>
               <p><strong>Fundação:</strong> 1942</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.nacionalpotosi.com/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Real Santa Cruz -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="real-santa-cruz">
             <img src="times/real-santa-cruz.png" alt="Escudo do Real Santa Cruz">
             <div class="corpo-cartao">
               <h3>Real Santa Cruz</h3>
               <p><strong>País:</strong> Bolívia</p>
               <p><strong>Fundação:</strong> 1962</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://realsantacruzfc.com/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Guabirá -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="guabira">
             <img src="times/guabira.png" alt="Escudo do Guabirá">
             <div class="corpo-cartao">
               <h3>Guabirá</h3>
               <p><strong>País:</strong> Bolívia</p>
               <p><strong>Fundação:</strong> 1962</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.clubguabira.com/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Royal Pari -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="royal-pari">
             <img src="times/royal-pari.png" alt="Escudo do Royal Pari">
             <div class="corpo-cartao">
               <h3>Royal Pari</h3>
               <p><strong>País:</strong> Bolívia</p>
               <p><strong>Fundação:</strong> 2002</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.royalpari.com.bo/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Universitario de Vinto -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="universitario-de-vinto">
             <img src="times/universitario-de-vinto.png" alt="Escudo do Universitario de Vinto">
             <div class="corpo-cartao">
               <h3>Universitario de Vinto</h3>
               <p><strong>País:</strong> Bolívia</p>
               <p><strong>Fundação:</strong> 2005</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Independiente Petrolero -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="independiente-petrolero">
             <img src="times/independiente-petrolero.png" alt="Escudo do Independiente Petrolero">
             <div class="corpo-cartao">
               <h3>Independiente Petrolero</h3>
               <p><strong>País:</strong> Bolívia</p>
               <p><strong>Fundação:</strong> 1932</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Always Ready-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="always-ready">
             <img src="times/always-ready.png" alt="Escudo do Always Ready">
             <div class="corpo-cartao">
               <h3>Always Ready</h3>
@@ -1236,7 +1200,7 @@
           </article>
 
           <!--Real Potosí-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="real-potosi">
             <img src="times/real-potosi.png" alt="Escudo do Real Potosí">
             <div class="corpo-cartao">
               <h3>Real Potosí</h3>
@@ -1250,7 +1214,7 @@
           </article>
 
           <!--San José -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="san-jose">
             <img src="times/san-jose-bol.png" alt="Escudo do San José">
             <div class="corpo-cartao">
               <h3>San José</h3>
@@ -1264,7 +1228,7 @@
           </article>
 
           <!--Universitario de Sucre -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="universitario-de-sucre">
             <img src="times/universitario-de-sucre.png" alt="Escudo do Universitario de Sucre">
             <div class="corpo-cartao">
               <h3>Universitario de Sucre</h3>
@@ -1278,7 +1242,7 @@
           </article>
 
           <!--Palmaflor -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="palmaflor">
             <img src="times/palmaflor-del-tropico.png" alt="Escudo do Palmaflor">
             <div class="corpo-cartao">
               <h3>Palmaflor</h3>
@@ -1292,7 +1256,7 @@
           </article>
 
           <!--Vaca Díez -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="vaca-diez">
             <img src="times/vaca-diez.png" alt="Escudo do Vaca Díez">
             <div class="corpo-cartao">
               <h3>Vaca Díez</h3>
@@ -1312,11 +1276,10 @@
               <h3></h3>
               <p><strong>País:</strong> Bolívia</p>
               <p><strong>Fundação:</strong></p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
@@ -1327,11 +1290,10 @@
               <h3></h3>
               <p><strong>País:</strong> Bolívia</p>
               <p><strong>Fundação:</strong></p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
@@ -1357,720 +1319,673 @@
         <div class="grade-clubes">
 
           <!--Santos FC -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="santos-fc">
             <img src="times/santos.png" alt="Escudo do Santos FC">
             <div class="corpo-cartao">
               <h3>Santos FC</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1912</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.santosfc.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--corinthians -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="corinthians">
             <img src="times/corinthians.png" alt="Escudo do corinthians">
             <div class="corpo-cartao">
-              <h3>corinthians</h3>
+              <h3>Corinthians</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1910</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.corinthians.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Chapecoense-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="chapecoense">
             <img src="times/chapecoense.png" alt="Escudo da Chapecoense">
             <div class="corpo-cartao">
               <h3>Chapecoense</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1973</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://chapecoense.com/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Botafogo-RJ -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="botafogo-rj">
             <img src="times/botafogo-rj.png" alt="Botafogo-RJ">
             <div class="corpo-cartao">
               <h3>Botafogo-RJ</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1904</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.botafogo.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Náutico-RR -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="nautico-rr">
             <img src="times/nautico-rr.png" alt="Escudo do Náutico-RR">
             <div class="corpo-cartao">
               <h3>Náutico-RR</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1962</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/N%C3%A1utico_Futebol_Clube" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Nautico-pe -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="nautico-pe">
             <img src="times/nautico-pe.png" alt="Escudo do Nautico-pe ">
             <div class="corpo-cartao">
               <h3>Náutico-PE</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1901</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.nautico-pe.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Santa Cruz-PE -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="santa-cruz-pe">
             <img src="times/santa-cruz-pe.png" alt="Escudo do Santa Cruz-PE ">
             <div class="corpo-cartao">
               <h3>Santa Cruz-PE</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong>1914</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.santacruzpe.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Sport -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="sport">
             <img src="times/sport.png" alt="Escudo do Sport">
             <div class="corpo-cartao">
               <h3>Sport</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong>1905</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://sportrecife.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Globo -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="globo-rn">
             <img src="times/globo-rn.png" alt="Escudo do Globo">
             <div class="corpo-cartao">
-              <h3>Globo</h3>
+              <h3>Globo-RN</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong>2012</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Globo_Futebol_Clube" target="_blank" class="link-clube">Acessar
                   site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Fortaleza -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="fortaleza">
             <img src="times/fortaleza.png" alt="Escudo do Fortaleza">
             <div class="corpo-cartao">
               <h3>Fortaleza</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong>1918 </p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://fortaleza1918.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Ceará -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="ceara">
             <img src="times/ceara.png" alt="Escudo do Ceará">
             <div class="corpo-cartao">
               <h3>Ceará</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong>1914</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.cearasc.com/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Floresta -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="floresta">
             <img src="times/floresta.png" alt="Escudo do Floresta">
             <div class="corpo-cartao">
               <h3>Floresta</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong>1954</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://florestaesporteclube.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Remo -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="remo">
             <img src="times/remo.png" alt="Escudo do Remo">
             <div class="corpo-cartao">
               <h3>Remo</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong>1905</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.clubedoremo.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Cuiabá -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="cuiaba">
             <img src="times/cuiaba.png" alt="Escudo do Cuiabá">
             <div class="corpo-cartao">
               <h3>Cuiabá</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong>2001</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.cuiabaesporteclube.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Bahia -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="bahia">
             <img src="times/bahia.png" alt="Escudo do Bahia">
             <div class="corpo-cartao">
               <h3>Bahia</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong>1931</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://esporteclubebahia.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Internacional -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="internacional">
             <img src="times/internacional.png" alt="Escudo do Internacional">
             <div class="corpo-cartao">
               <h3>Internacional</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong>1909</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://internacional.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Grêmio -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="gremio">
             <img src="times/gremio.png" alt="Escudo do Grêmio">
             <div class="corpo-cartao">
               <h3>Grêmio</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong>1903</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://gremio.net/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Brusque -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="brusque">
             <img src="times/brusque.png" alt="Escudo do Brusque">
             <div class="corpo-cartao">
               <h3>Brusque</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong>1987</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://brusquefutebolclube.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Luverdense -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="luverdense">
             <img src="times/luverdense.png" alt="Escudo do Luverdense">
             <div class="corpo-cartao">
               <h3>Luverdense</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong>2004</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://luverdense.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Serra Talhada -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="serra-talhada">
             <img src="times/serra-talhada.png" alt="Escudo do Serra Talhada">
             <div class="corpo-cartao">
               <h3>Serra Talhada</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong>2011</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Serra_Talhada_Futebol_Clube" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Manaus -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="manaus">
             <img src="times/manaus.png" alt="Escudo do Manaus ">
             <div class="corpo-cartao">
               <h3>Manaus</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 2013</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Manaus_Futebol_Clube" target="_blank" class="link-clube">Acessar
                   site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Treze-PB -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="treze-pb">
             <img src="times/treze-pb.png" alt="Escudo do Treze-PB ">
             <div class="corpo-cartao">
               <h3>Treze - PB</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong>1925</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://trezefc.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Botafogo-PB -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="botafogo-pb">
             <img src="times/botafogo-pb.png" alt="Escudo do Botafogo-PB ">
             <div class="corpo-cartao">
               <h3>Botafogo- PB</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong>1931</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.associacaobotafogopb.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Flamengo -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="flamengo">
             <img src="times/flamengo.webp" alt="Escudo do Flamengo ">
             <div class="corpo-cartao">
               <h3>Flamengo</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1895</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.flamengo.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Palmeiras -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="palmeiras">
             <img src="times/palmeiras.webp" alt="Escudo do Palmeiras ">
             <div class="corpo-cartao">
               <h3>Palmeiras</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1914</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.palmeiras.com.br/home/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Central -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="central">
             <img src="times/central-sc.png" alt="Escudo do Central">
             <div class="corpo-cartao">
               <h3>Central</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1919</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Central_Sport_Club" target="_blank" class="link-clube">Acessar
                   site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Porto-PE -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="porto-pe">
             <img src="times/porto-pe.png" alt="Escudo do Porto-PE">
             <div class="corpo-cartao">
               <h3>Porto-PE</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1983</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Clube_Atl%C3%A9tico_do_Porto" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Criciúma -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="criciuma">
             <img src="times/criciuma.png" alt="Escudo do Criciúma">
             <div class="corpo-cartao">
               <h3>Criciúma</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1947</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.criciuma.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Belo Jardim -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="belo-jardim">
             <img src="times/belo-jardim.png" alt="Escudo do Belo Jardim">
             <div class="corpo-cartao">
               <h3>Belo Jardim</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 2005</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Belo_Jardim_Futebol_Clube" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Chã Grande -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="cha-grande">
             <img src="times/cha-grande.png" alt="Escudo do Chã Grande">
             <div class="corpo-cartao">
               <h3>Chã Grande</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 2010</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://historiadofutebol.com/blog/?p=9184" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--São Paulo -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="sao-paulo">
             <img src="times/sao-paulo.webp" alt="Escudo do São Paulo">
             <div class="corpo-cartao">
               <h3>São Paulo</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1930</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.saopaulofc.net/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Fluminense -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="fluminense">
             <img src="times/fluminense.webp" alt="Escudo do Fluminense">
             <div class="corpo-cartao">
               <h3>Fluminense</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1902</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.fluminense.com.br/site/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Vasco da Gama -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="vasco-da-gama">
             <img src="times/vasco-da-gama.png" alt="Escudo do Vasco da Gama">
             <div class="corpo-cartao">
               <h3>Vasco da Gama</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1898</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://vasco.com.br/tag/site-oficial/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Mirassol -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="mirassol">
             <img src="times/mirassol.png" alt="Escudo do Mirassol">
             <div class="corpo-cartao">
               <h3>Mirassol</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1925</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.mirassolfc.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Cruzeiro -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="cruzeiro">
             <img src="times/cruzeiro.webp" alt="Escudo do Cruzeiro">
             <div class="corpo-cartao">
               <h3>Cruzeiro</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1921</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.cruzeiro.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Athletico Paranaense -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="athletico-paranaense">
             <img src="times/athletico-paranaense.png" alt="Escudo do Athletico Paranaense">
             <div class="corpo-cartao">
               <h3>Athletico Paranaense</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1924</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.athletico.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Atlético Mineiro -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="atletico-mineiro">
             <img src="times/atletico-mineiro.webp" alt="Escudo do Atlético Mineiro ">
             <div class="corpo-cartao">
               <h3>Atlético Mineiro</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1908</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://atletico.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Petrolina -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="petrolina">
             <img src="times/petrolina.png" alt="Escudo do Petrolina">
             <div class="corpo-cartao">
               <h3>Petrolina</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1998</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Petrolina_Social_Futebol_Clube" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Paysandu -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="paysandu">
             <img src="times/paysandu.png" alt="Escudo do Paysandu">
             <div class="corpo-cartao">
               <h3>Paysandu</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1914</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.paysandu.com.br/home" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Avaí -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="avai">
             <img src="times/avai.png" alt="Escudo do Avaí">
             <div class="corpo-cartao">
               <h3>Avaí</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1923</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://avai.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Athletic Club -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="athletic-club">
             <img src="times/athletic-club.png" alt="Escudo do Athletic Club">
             <div class="corpo-cartao">
               <h3>Athletic Club</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1909</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://athleticclub.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Atlético Goianiense -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="atletico-goianiense">
             <img src="times/atletico-goianiense.png" alt="Escudo do Atlético Goianiense">
             <div class="corpo-cartao">
               <h3>Atlético Goianiense</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1937</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://atleticogoianiense.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Goiás -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="goias">
             <img src="times/goias.png" alt="Escudo do Goiás">
             <div class="corpo-cartao">
               <h3>Goiás</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1943</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.goiasec.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--CRB -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="crb">
             <img src="times/crb.png" alt="Escudo do CRB ">
             <div class="corpo-cartao">
               <h3>CRB</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1912</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://crboficial.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Coritiba -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="coritiba">
             <img src="times/coritiba.png" alt="Escudo do Coritiba">
             <div class="corpo-cartao">
               <h3>Coritiba</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1909</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://coritiba.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Paraná Clube -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="parana-clube">
             <img src="times/parana-clube.png" alt="Escudo do Paraná Clube">
             <div class="corpo-cartao">
               <h3>Paraná Clube</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1989</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://paranaclube.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Londrina -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="londrina">
             <img src="times/londrina.png" alt="Escudo do Londrina">
             <div class="corpo-cartao">
               <h3>Londrina</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1956</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.londrinaesporteclube.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Afogados da Ingazeira Futebol -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="afogados-da-ingazeira">
             <img src="times/afogados-da-ingazeira.gif" alt="Escudo do Afogados da Ingazeira">
             <div class="corpo-cartao">
               <h3>Afogados da Ingazeira</h3>
@@ -2082,23 +1997,22 @@
           </article>
 
           <!--ASA de Arapiraca -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="asa-de-arapiraca">
             <img src="times/asa-de-arapiraca.png" alt="Escudo do ASA de Arapiraca">
             <div class="corpo-cartao">
               <h3>ASA de Arapiraca</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1952</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Agremia%C3%A7%C3%A3o_Sportiva_Arapiraquense" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Ramalat Sport Club -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="ramalat-sport-club">
             <img src="times/ramalat.png" alt="Escudo do Ramalat Sport Club">
             <div class="corpo-cartao">
               <h3>Ramalat Sport Club</h3>
@@ -2113,7 +2027,7 @@
           </article>
 
           <!-- Rio Branco Football Club -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="rio-branco-football-club">
             <img src="times/rio-branco-ac.png" alt="Escudo do Rio Branco-AC">
             <div class="corpo-cartao">
               <h3>Rio Branco Football Club</h3>
@@ -2128,8 +2042,8 @@
           </article>
 
           <!-- Atlético Acreano -->
-          <article class="cartao-clube">
-            <img src="times/atlético-acreano.png" alt="Escudo do Atlético Acreano">
+          <article class="cartao-clube" id="atletico-acreano">
+            <img src="times/atletico-acreano.png" alt="Escudo do Atlético Acreano">
             <div class="corpo-cartao">
               <h3>Atlético Acreano</h3>
               <p><strong>País:</strong> Brasil</p>
@@ -2143,7 +2057,7 @@
           </article>
 
           <!-- Galvez Esporte Clube -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="galvez-esporte-clube">
             <img src="times/galvez.png" alt="Escudo do Galvez Esporte Clube">
             <div class="corpo-cartao">
               <h3>Galvez Esporte Clube</h3>
@@ -2158,7 +2072,7 @@
           </article>
 
           <!-- Humaitá Futebol Clube -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="humaita-futebol-clube">
             <img src="times/humaita.png" alt="Escudo do Humaitá Futebol Clube">
             <div class="corpo-cartao">
               <h3>Humaitá Futebol Clube</h3>
@@ -2173,7 +2087,7 @@
           </article>
 
           <!-- São Francisco Futebol Clube -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="sao-francisco-futebol-clube">
             <img src="times/sao-francisco-ac.png" alt="Escudo do São Francisco-AC">
             <div class="corpo-cartao">
               <h3>São Francisco Futebol Clube</h3>
@@ -2188,7 +2102,7 @@
           </article>
 
           <!-- Adesg -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="adesg">
             <img src="times/adesg.png" alt="Escudo da ADESG">
             <div class="corpo-cartao">
               <h3>Associação Desportiva Senador Guiomard (ADESG)</h3>
@@ -2203,7 +2117,7 @@
           </article>
 
           <!-- Náuas Esporte Clube -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="nauas-esporte-clube">
             <img src="times/nauas.png" alt="Escudo do Náuas Esporte Clube">
             <div class="corpo-cartao">
               <h3>Náuas Esporte Clube</h3>
@@ -2218,98 +2132,92 @@
           </article>
 
           <!--São Raimundo -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="sao-raimundo-rr">
             <img src="times/sao-raimundo-rr.png" alt="Escudo do São Raimundo">
             <div class="corpo-cartao">
               <h3>São Raimundo-RR</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1963</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://saoraimundorr.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Tombense -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="tombense">
             <img src="times/tombense.png" alt="Escudo do Tombense">
             <div class="corpo-cartao">
               <h3>Tombense</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1914</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Tombense_Futebol_Clube" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--XV de Piracicaba -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="xv-de-piracicaba">
             <img src="times/xv-de-piracicaba.png" alt="Escudo do XV de Piracicaba">
             <div class="corpo-cartao">
               <h3>XV de Piracicaba</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1913</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://xvpiracicaba.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Ponte Preta -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="ponte-preta">
             <img src="times/ponte-preta.png" alt="Escudo do Ponte Preta">
             <div class="corpo-cartao">
               <h3>Ponte Preta</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1900</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pontepreta.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Guarani -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="guarani">
             <img src="times/guarani.png" alt="Escudo do Guarani">
             <div class="corpo-cartao">
               <h3>Guarani</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1911</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://guaranifc.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Salgueiro-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="salgueiro">
             <img src="times/salgueiro.png" alt="Escudo do Salgueiro">
             <div class="corpo-cartao">
               <h3>Salgueiro</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1972</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.salgueiroac.com/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!-- Nacional Futebol Clube-AM -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="nacional-futebol-clube-am">
             <img src="times/nacional-bra.png" alt="Escudo do Nacional-AM">
             <div class="corpo-cartao">
               <h3>Nacional-AM</h3>
@@ -2323,7 +2231,7 @@
           </article>
 
           <!-- Fast Clube -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="fast-clube">
             <img src="times/fast-clube.png" alt="Escudo do Fast Clube">
             <div class="corpo-cartao">
               <h3>Fast Clube</h3>
@@ -2337,7 +2245,7 @@
           </article>
 
           <!-- São Raimundo Esporte Clube -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="sao-raimundo-esporte-clube">
             <img src="times/sao-raimundo-am.png" alt="Escudo do São Raimundo-AM">
             <div class="corpo-cartao">
               <h3>São Raimundo-AM</h3>
@@ -2352,7 +2260,7 @@
           </article>
 
           <!-- Princesa do Solimões Esporte Clube -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="princesa-do-solimoes-esporte-clube">
             <img src="times/princesa-do-solimoes.png" alt="Escudo do Princesa do Solimões">
             <div class="corpo-cartao">
               <h3>Princesa do Solimões Esporte Clube</h3>
@@ -2367,7 +2275,7 @@
           </article>
 
           <!-- Penarol Atlético Clube -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="penarol-atletico-clube">
             <img src="times/penarol-am.png" alt="Escudo do Penarol-AM">
             <div class="corpo-cartao">
               <h3>Penarol-AM</h3>
@@ -2382,7 +2290,7 @@
           </article>
 
           <!--Operário Esporte Clube -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="operario-esporte-clube">
             <img src="times/operario-am.png" alt="Escudo do Operário-AM">
             <div class="corpo-cartao">
               <h3>Operário Esporte Clube</h3>
@@ -2397,7 +2305,7 @@
           </article>
 
           <!-- Iranduba Futebol Clube -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="iranduba-futebol-clube">
             <img src="times/iranduba.png" alt="Escudo do Iranduba-AM">
             <div class="corpo-cartao">
               <h3>Iranduba Futebol Clube</h3>
@@ -2412,232 +2320,217 @@
           </article>
 
           <!--Rio Negro -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="rio-negro">
             <img src="times/rio-negro.png" alt="Escudo do Rio Negro ">
             <div class="corpo-cartao">
               <h3>Rio Negro</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1913</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Atl%C3%A9tico_Rio_Negro_Clube_(Amazonas)" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Amazonas -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="amazonas">
             <img src="times/amazonas.png" alt="Escudo do Amazonas">
             <div class="corpo-cartao">
               <h3>Amazonas</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 2019</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://amazonas.ingressosa.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Boa Esporte -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="boa-esporte">
             <img src="times/boa-esporte.png" alt="Escudo do Boa Esporte">
             <div class="corpo-cartao">
               <h3>Boa Esporte</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1947</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://boaesporte.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Íbis-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="ibis">
             <img src="times/ibis.png" alt="Escudo do Íbis">
             <div class="corpo-cartao">
               <h3>Íbis</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1938</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/%C3%8Dbis_Sport_Club" target="_blank" class="link-clube">Acessar
                   site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--E.C.Vitória -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="e-c-vitoria">
             <img src="times/e-c-vitoria.png" alt="Escudo do E.C.Vitória">
             <div class="corpo-cartao">
               <h3>E.C.Vitória</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1989</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://ecvitoria.com.br/public/Inicio/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Juventude-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="juventude">
             <img src="times/juventude.png" alt="Escudo do Juventude">
             <div class="corpo-cartao">
               <h3>Juventude</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1913</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.juventude.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Caxias do Sul -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="caxias-do-sul">
             <img src="times/caxias-do-sul.png" alt="Escudo do Caxias do Sul">
             <div class="corpo-cartao">
               <h3>Caxias do Sul</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1935</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://sercaxias.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Figueirense -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="figueirense">
             <img src="times/figueirense.png" alt="Escudo do Figueirense">
             <div class="corpo-cartao">
               <h3>Figueirense</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1921</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://figueirense.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--América-PE -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="america-pe">
             <img src="times/america-pe.png" alt="Escudo do América-PE">
             <div class="corpo-cartao">
               <h3>América Pernambucano</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1914</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Am%C3%A9rica_Futebol_Clube_(Pernambuco)" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--América de Natal -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="america-de-natal">
             <img src="times/america-de-natal.png" alt="Escudo do América de Natal">
             <div class="corpo-cartao">
               <h3>América de Natal</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1915</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://americafcnatal.com/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--ABC -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="abc">
             <img src="times/abc.png" alt="Escudo do ABC">
             <div class="corpo-cartao">
               <h3>ABC</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1915</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://abcfc.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Confiança -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="confianca">
             <img src="times/confianca.png" alt="Escudo do Confiança">
             <div class="corpo-cartao">
               <h3>Confiança</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 1936</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://adconfianca.net/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Lagarto-->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="lagarto">
             <img src="times/lagarto.png" alt="Escudo do Lagarto">
             <div class="corpo-cartao">
               <h3>Lagarto</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 2009</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Lagarto_Futebol_Clube" target="_blank" class="link-clube">Acessar
                   site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Paragominas -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="paragominas">
             <img src="times/paragominas.png" alt="Escudo do Paragominas">
             <div class="corpo-cartao">
               <h3>Paragominas</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 2012</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Paragominas_Futebol_Clube" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Cianorte -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="cianorte">
             <img src="times/cianorte.png" alt="Escudo do Cianorte">
             <div class="corpo-cartao">
               <h3>Cianorte</h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong> 2002</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://cianortefc.com.br/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
@@ -2648,11 +2541,10 @@
               <h3></h3>
               <p><strong>País:</strong> Brasil</p>
               <p><strong>Fundação:</strong></p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
@@ -2678,166 +2570,157 @@
         <div class="grade-clubes">
 
           <!--Colo-Colo -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="colo-colo">
             <img src="times/colo-colo.png" alt="Escudo do Colo-Colo">
             <div class="corpo-cartao">
               <h3>Colo-Colo</h3>
               <p><strong>País:</strong> Chile </p>
               <p><strong>Fundação:</strong> 1925</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.colocolo.cl" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
+            </div>
           </article>
 
           <!--Universidad de Chile -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="universidad-de-chile">
             <img src="times/universidad-de-chile.png" alt="Escudo da Universidad de Chile">
             <div class="corpo-cartao">
               <h3>Universidad de Chile</h3>
               <p><strong>País:</strong> Chile </p>
               <p><strong>Fundação:</strong> 1927</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.udechile.cl" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
+            </div>
           </article>
 
           <!--Universidad Católica -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="universidad-catolica">
             <img src="times/universidad-catolica-chi.png" alt="Escudo da Universidad Católica">
             <div class="corpo-cartao">
               <h3>Universidad Católica</h3>
               <p><strong>País:</strong> Chile </p>
               <p><strong>Fundação:</strong> 1937</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.lacatolica.cl/home" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!-- Unión Española -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="union-espanola">
             <img src="times/union-espanola.png" alt="Escudo do Unión Española">
             <div class="corpo-cartao">
               <h3>Unión Española</h3>
               <p><strong>País:</strong> Chile</p>
               <p><strong>Fundação:</strong> 1897</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://unionespanola.cl/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!-- Audax Italiano -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="audax-italiano">
             <img src="times/audax-italiano.png" alt="Escudo do Audax Italiano">
             <div class="corpo-cartao">
               <h3>Audax Italiano</h3>
               <p><strong>País:</strong> Chile</p>
               <p><strong>Fundação:</strong> 1910</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.audaxitaliano.cl" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!-- Everton -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="everton-de-vina-del-mar">
             <img src="times/everton-de-vina-del-mar-chi.png" alt="Escudo do Everton de Viña del Mar">
             <div class="corpo-cartao">
               <h3>Everton de Viña del Mar</h3>
               <p><strong>País:</strong> Chile</p>
               <p><strong>Fundação:</strong> 1909</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.tiendaeverton.cl/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Santiago Wanderers -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="santiago-wanderers">
             <img src="times/santiago-wanderers.png" alt="Escudo do Santiago Wanderers">
             <div class="corpo-cartao">
               <h3>Santiago Wanderers</h3>
               <p><strong>País:</strong> Chile </p>
               <p><strong>Fundação:</strong> 1982</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://santiagowanderers.cl/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Ñublense -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="nublense">
             <img src="times/nublense.png" alt="Escudo do Ñublense">
             <div class="corpo-cartao">
               <h3>Ñublense</h3>
               <p><strong>País:</strong> Chile </p>
               <p><strong>Fundação:</strong> 1916</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.losdiablosrojos.cl/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Huachipato -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="huachipato">
             <img src="times/huachipato.png" alt="Escudo do Huachipato">
             <div class="corpo-cartao">
               <h3>Huachipato</h3>
               <p><strong>País:</strong> Chile</p>
               <p><strong>Fundação:</strong> 1947</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://cdhuachipato.cl/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Palestino -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="palestino">
             <img src="times/palestino.png" alt="Escudo do Palestino">
             <div class="corpo-cartao">
               <h3>Palestino</h3>
               <p><strong>País:</strong> Chile</p>
               <p><strong>Fundação:</strong> 1920</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://palestino.cl/" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Cobresal -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="cobresal">
             <img src="times/cobresal.png" alt="Escudo do Cobresal">
             <div class="corpo-cartao">
               <h3>Cobresal</h3>
               <p><strong>País:</strong> Chile</p>
               <p><strong>Fundação:</strong> 1979</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://pt.wikipedia.org/wiki/Club_de_Deportes_Cobresal" target="_blank"
                   class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
@@ -2848,26 +2731,25 @@
               <h3>Deportes Temuco</h3>
               <p><strong>País:</strong> Chile</p>
               <p><strong>Fundação:</strong> 1919</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
-                <a href="https://pt.wikipedia.org/wiki/Club_de_Deportes_Temuco" target="_blank" class="link-clube">Acessar site</a>
+                <a href="https://pt.wikipedia.org/wiki/Club_de_Deportes_Temuco" target="_blank"
+                  class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
           <!--Rangers-CHI -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="rangers-chi">
             <img src="times/rangers-chi.png" alt="Escudo do Rangers">
             <div class="corpo-cartao">
               <h3>Rangers</h3>
               <p><strong>País:</strong> Chile</p>
               <p><strong>Fundação:</strong> 1902</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.rangersdetalca.cl" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
@@ -2878,11 +2760,10 @@
               <h3></h3>
               <p><strong>País:</strong> Chile </p>
               <p><strong>Fundação:</strong></p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
@@ -2908,31 +2789,31 @@
         <div class="grade-clubes">
 
           <!--Atlético Nacional -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="atletico-nacional">
             <img src="times/atletico-nacional-de-medellin.png" alt="Escudo do Atlético Nacional">
             <div class="corpo-cartao">
               <h3>Atlético Nacional</h3>
               <p><strong>País:</strong> Colômbia</p>
               <p><strong>Fundação:</strong> 1947</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.atlnacional.com.co" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
+            </div>
           </article>
 
           <!--Millonarios -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="millonarios">
             <img src="times/millonarios.png" alt="Escudo do Millonarios">
             <div class="corpo-cartao">
               <h3>Millonarios FC</h3>
               <p><strong>País:</strong> Colômbia</p>
               <p><strong>Fundação:</strong> 1946</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.millonarios.com.co" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
+            </div>
           </article>
 
           <!-- -->
@@ -2942,11 +2823,10 @@
               <h3></h3>
               <p><strong>País:</strong> Colômbia</p>
               <p><strong>Fundação:</strong></p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
@@ -2979,11 +2859,10 @@
               <h3></h3>
               <p><strong>País:</strong> </p>
               <p><strong>Fundação:</strong></p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
@@ -3016,11 +2895,10 @@
               <h3></h3>
               <p><strong>País:</strong> </p>
               <p><strong>Fundação:</strong></p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
@@ -3053,11 +2931,10 @@
               <h3></h3>
               <p><strong>País:</strong> </p>
               <p><strong>Fundação:</strong></p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
@@ -3084,31 +2961,31 @@
         <div class="grade-clubes">
 
           <!--Nacional -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="nacional">
             <img src="times/nacional-uru.png" alt="Escudo do Nacional">
             <div class="corpo-cartao">
               <h3>Nacional</h3>
               <p><strong>País:</strong> Uruguai</p>
               <p><strong>Fundação:</strong> 1899</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.nacional.uy" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
+              <div>
           </article>
 
           <!--Peñarol -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="penarol">
             <img src="times/penarol-am.png" alt="Escudo do Peñarol">
             <div class="corpo-cartao">
               <h3>Peñarol</h3>
               <p><strong>País:</strong> Uruguai</p>
               <p><strong>Fundação:</strong> 1891</p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="https://www.padreydecano.com" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
+            </div>
           </article>
 
           <!-- -->
@@ -3118,11 +2995,10 @@
               <h3></h3>
               <p><strong>País:</strong> Uruguai</p>
               <p><strong>Fundação:</strong></p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
@@ -3155,11 +3031,10 @@
               <h3></h3>
               <p><strong>País:</strong> </p>
               <p><strong>Fundação:</strong></p>
-              <p><b>Ir para o site:</b>
+              <p><b>Ir para o site:</b></p>
               <div class="a">
                 <a href="" target="_blank" class="link-clube">Acessar site</a>
               </div>
-              </p>
             </div>
           </article>
 
@@ -3180,9 +3055,13 @@
     </div>
   </footer>
 
+  <script src="pesquisa-script.js"></script>
+
   <script>
     document.getElementById('ano').textContent = new Date().getFullYear();
   </script>
+
+
 </body>
 
 </html>
