@@ -10,7 +10,7 @@ const CLUBES = [
     { nome: "Rosario Central", id: "rosario-central", pais: "ARG", pagina: "america-sul.html" },
     { nome: "Velez Sarsfield", id: "velez-sarsfield", pais: "ARG", pagina: "america-sul.html" },
     { nome: "Argentinos Juniors", id: "argentinos-juniors", pais: "ARG", pagina: "america-sul.html" },
-    { nome: "Club Atlético Huracán", id: "club-atletico-huracan", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Club Atlético Huracán", id: "huracan", pais: "ARG", pagina: "america-sul.html" },
     { nome: "gimnasia y Esgrima La Plata", id: "gimnasia-y-esgrima-la-plata", pais: "ARG", pagina: "america-sul.html" },
     { nome: "gimnasia y Esgrima de Mendoza", id: "gimnasia-y-esgrima-de-mendoza", pais: "ARG", pagina: "america-sul.html" },
     { nome: "Lanús-ARG", id: "lanus", pais: "ARG", pagina: "america-sul.html" },
