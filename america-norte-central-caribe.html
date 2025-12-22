@@ -110,7 +110,7 @@
         <div class="grade-clubes">
 
           <!--Atlanta United -->
-          <article class="cartao-clube">
+          <article class="cartao-clube" id="atlanta-united" data-pais="USA" data-pagina="america-norte-central-caribe.html">
             <img src="times/atlanta-united.png" alt="Escudo do Atlanta United">
             <div class="corpo-cartao">
               <h3>Atlanta United</h3>
@@ -1593,6 +1593,32 @@
     </div>
   </footer>
 
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    if (window.location.hash) {
+      const id = window.location.hash.substring(1);
+      const clube = document.getElementById(id);
+
+      if (clube) {
+        // Scroll até o clube
+        clube.scrollIntoView({
+          behavior: "smooth",
+          block: "center"
+        });
+
+        // Remove destaque anterior (segurança)
+        document
+          .querySelectorAll(".destaque-clube")
+          .forEach(el => el.classList.remove("destaque-clube"));
+
+        // Aplica destaque
+        clube.classList.add("destaque-clube");
+      }
+    }
+  });
+</script>
+
+  <script src="clubes-dados.js"></script>
   <script src="pesquisa-script.js"></script>
 
   <script>
