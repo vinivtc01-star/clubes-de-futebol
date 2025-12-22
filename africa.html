@@ -21,6 +21,12 @@
       <a href="europa.html" class="ativo">UEFA</a>
       <a href="asia.html" class="ativo">AFC</a>
       <a href="oceania.html" class="ativo">OFC</a>
+
+      <!-- 🔍 BUSCA -->
+      <div class="busca-container">
+        <input type="text" id="campo-busca" placeholder="Pesquisar clube..." autocomplete="off">
+        <ul id="lista-sugestoes"></ul>
+      </div>
     </nav>
   </header>
 
@@ -491,7 +497,8 @@
         <p><b>Federação de Futebol da República Islâmica da Mauritânia (FFRIM) </b></p>
       </h2>
       <a href="https://www.ffrim.org/" target="_blank">
-        <img src="federacoes/federacao-de-futebol-da-republica-islamica-da-mauritania.png" alt="Logo da Confederação" class="logo-pequeno">
+        <img src="federacoes/federacao-de-futebol-da-republica-islamica-da-mauritania.png" alt="Logo da Confederação"
+          class="logo-pequeno">
       </a>
     </div>
 
@@ -954,7 +961,7 @@
     </div>
 
     <div class="linha-país">
-      <p><b>Clubes da  República do Congo:</b></p>
+      <p><b>Clubes da República do Congo:</b></p>
       <img src="bandeira-dos-paises/republica-do-congo.png" alt="Logo da Bandeira do País" class="logo-pequeno1">
     </div>
 
@@ -1021,7 +1028,8 @@
         <p><b>Federação Guinéu-Equatoriana de Futebol (FEGUIFUT) </b></p>
       </h2>
       <a href="https://www.feguifut.org/" target="_blank">
-        <img src="federacoes/federacao-guineu-equatoriana-de-futebol.png" alt="Logo da Confederação" class="logo-pequeno">
+        <img src="federacoes/federacao-guineu-equatoriana-de-futebol.png" alt="Logo da Confederação"
+          class="logo-pequeno">
       </a>
     </div>
 
@@ -1099,7 +1107,8 @@
 
     <div class="linha-país">
       <p><b>Clubes da RD Congo:</b></p>
-      <img src="bandeira-dos-paises/republica-democratica-do-congo.png" alt="Logo da Bandeira do País" class="logo-pequeno1">
+      <img src="bandeira-dos-paises/republica-democratica-do-congo.png" alt="Logo da Bandeira do País"
+        class="logo-pequeno1">
     </div>
 
     <section>
@@ -1134,7 +1143,7 @@
     </div>
 
     <div class="linha-país">
-      <p><b>Clubes do  São Tomé e Príncipe:</b></p>
+      <p><b>Clubes do São Tomé e Príncipe:</b></p>
       <img src="bandeira-dos-paises/sao-tome-e-principe.png" alt="Logo da Bandeira do País" class="logo-pequeno1">
     </div>
 
@@ -1168,8 +1177,8 @@
     <h1 class="titulo-canto">
       <p>
         <b>Zona 5: (Centro-leste) presidida pela (<a
-            href="https://pt.wikipedia.org/wiki/Conselho_das_Associa%C3%A7%C3%B5es_de_Futebol_da_%C3%81frica_Oriental_e_Central" class="link-destaque"
-            target="_blank">CECAFA</a>) - 12</b>
+            href="https://pt.wikipedia.org/wiki/Conselho_das_Associa%C3%A7%C3%B5es_de_Futebol_da_%C3%81frica_Oriental_e_Central"
+            class="link-destaque" target="_blank">CECAFA</a>) - 12</b>
       </p>
     </h1>
 
@@ -1250,7 +1259,8 @@
         <p><b>Federação Nacional de Futebol da Eritreia (ENFF) </b></p>
       </h2>
       <a href="https://enff-online.com/" target="_blank">
-        <img src="federacoes/federacao-nacional-de-futebol-da-eritreia.png" alt="Logo da Confederação" class="logo-pequeno">
+        <img src="federacoes/federacao-nacional-de-futebol-da-eritreia.png" alt="Logo da Confederação"
+          class="logo-pequeno">
       </a>
     </div>
 
@@ -1538,7 +1548,8 @@
         <p><b>Federação das Associações de Futebol de Uganda (FUFA) </b></p>
       </h2>
       <a href="https://www.fufa.co.ug/" target="_blank">
-        <img src="federacoes/federacao-das-associações-de-futebol-de-uganda.png" alt="Logo da Confederação" class="logo-pequeno">
+        <img src="federacoes/federacao-das-associações-de-futebol-de-uganda.png" alt="Logo da Confederação"
+          class="logo-pequeno">
       </a>
     </div>
 
@@ -1579,7 +1590,7 @@
     </div>
 
     <div class="linha-país">
-      <p><b>Clubes do  Zanzibar:</b></p>
+      <p><b>Clubes do Zanzibar:</b></p>
       <img src="bandeira-dos-paises/zanzibar.png" alt="Logo da Bandeira do País" class="logo-pequeno1">
     </div>
 
@@ -1875,7 +1886,8 @@
         <p><b>Associação de Futebol das Ilhas Maurício (MFA)</b></p>
       </h2>
       <a href="https://pt.wikipedia.org/wiki/Associa%C3%A7%C3%A3o_de_Futebol_das_Ilhas_Maur%C3%ADcio" target="_blank">
-        <img src="federacoes/associacao-de-futebol-das-ilhas-mauricio.png" alt="Logo da Confederação" class="logo-pequeno">
+        <img src="federacoes/associacao-de-futebol-das-ilhas-mauricio.png" alt="Logo da Confederação"
+          class="logo-pequeno">
       </a>
     </div>
 
@@ -2169,9 +2181,6 @@
         </div>
     </section>
 
-
-
-
   </main>
 
   <footer class="rodape-site">
@@ -2184,6 +2193,8 @@
       </b>
     </div>
   </footer>
+
+  <script src="pesquisa-script.js"></script>
 
   <script>
     document.getElementById('ano').textContent = new Date().getFullYear();
