@@ -75,6 +75,7 @@ const CLUBES = [
     { nome: "UAI Urquiza", id: "uai-urquiza", pais: "ARG", pagina: "america-sul.html" },
     { nome: "Argentino (Merlo)", id: "argentino-de-merlo", pais: "ARG", pagina: "america-sul.html" },
     { nome: "Deportivo Armenio", id: "deportivo-armenio", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Berazategui", id: "berazategui", pais: "ARG", pagina: "america-sul.html" },
     { nome: "Cañuelas", id: "canuelas", pais: "ARG", pagina: "america-sul.html" },
 
     
