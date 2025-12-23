@@ -19,9 +19,11 @@ document.addEventListener("DOMContentLoaded", () => {
       const li = document.createElement("li");
       li.innerHTML = `${c.nome} <small>(${c.pais})</small>`;
 
-      li.onclick = () => {
-        window.location.href = `${c.pagina}#${c.id}`;
-      };
+      li.addEventListener("click", () => {
+  lista.style.display = "none"; // fecha sugestões
+  input.value = "";             // limpa campo
+  window.location.href = `${c.pagina}#${c.id}`;
+});
 
       lista.appendChild(li);
     });
@@ -29,3 +31,4 @@ document.addEventListener("DOMContentLoaded", () => {
     lista.style.display = resultados.length ? "block" : "none";
   });
 });
+
