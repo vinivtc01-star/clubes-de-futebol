@@ -291,6 +291,12 @@ const CLUBES = [
     { nome: "Real Salt Lake", id: "real-salt-lake", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "San Diego FC", id: "san-diego-fc", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "St. Louis City SC", id: "st-louis-city", pais: "USA", pagina: "america-norte-central-caribe.html" },
+
+    /* Clubes da Áfica do Sul */
+    { nome: "Mamelodi Sundowns", id: "mamelodi-sundowns", pais: "RSA", pagina: "africa.html" },
+    { nome: "", id: "", pais: "RSA", pagina: "africa.html" },
+    { nome: "", id: "", pais: "RSA", pagina: "africa.html" },
+    
     
     /* Clubes da Espanha */
     { nome: "Real Madrid", id: "real-madrid", pais: "ESP", pagina: "europa.html" },
