@@ -240,8 +240,25 @@ const CLUBES = [
     { nome: "FC Arizona", id: "fc-arizona", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "FC Tucson", id: "fc-tucson", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "Sporting Arizona", id: "sporting-arizona", pais: "USA", pagina: "america-norte-central-caribe.html" },
-
-
+    { nome: "Charlotte FC", id: "charlotte-fc", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "Chicago Fire FC", id: "chicago-fire", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "FC Cincinnati", id: "fc-cincinnati", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "Columbus Crew", id: "columbus-crew", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "D.C. United", id: "dc-united", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "New England Revolution", id: "new-england-revolution", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "New York Red Bulls", id: "new-york-red-bulls", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "Orlando City SC", id: "orlando-city", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "Philadelphia Union", id: "philadelphia-union", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "Austin FC", id: "austin-fc", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "Colorado Rapids", id: "colorado-rapids", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "FC Dallas", id: "fc-dallas", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "Houston Dynamo", id: "houston-dynamo", pais: "USA", pagina: "america-norte-central-caribe.html" },    
+    { nome: "Sporting Kansas City", id: "sporting-kansas-city", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "Minnesota United FC", id: "minnesota-united", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "Real Salt Lake", id: "real-salt-lake", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "San Diego FC", id: "san-diego-fc", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "St. Louis City SC", id: "st-louis-city", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    
     /* Clubes da Espanha */
     { nome: "Real Madrid", id: "real-madrid", pais: "ESP", pagina: "europa.html" },
     { nome: "FC Barcelona", id: "barcelona", pais: "ESP", pagina: "europa.html" },
