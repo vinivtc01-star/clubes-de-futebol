@@ -77,11 +77,22 @@ const CLUBES = [
     { nome: "Deportivo Armenio", id: "deportivo-armenio", pais: "ARG", pagina: "america-sul.html" },
     { nome: "Berazategui", id: "berazategui", pais: "ARG", pagina: "america-sul.html" },
     { nome: "Cañuelas", id: "canuelas", pais: "ARG", pagina: "america-sul.html" },
-
-    
-    
-
-    
+    { nome: "Deportivo Laferrere", id: "deportivo-laferrere", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Dock Sud", id: "dock-sud", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Sportivo Barracas", id: "sportivo-barracas", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Sportivo Italiano", id: "sportivo-italiano", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Ferrocarril Midland", id: "ferrocarril-midland", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "J.J. Urquiza", id: "jj-urquiza", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Deportivo Merlo", id: "deportivo-merlo", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Luján", id: "lujan", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "San Martín (Burzaco)", id: "san-martin-burzaco", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "", id: "", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "", id: "", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "", id: "", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "", id: "", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "", id: "", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "", id: "", pais: "ARG", pagina: "america-sul.html" },
+     
 
     
 
