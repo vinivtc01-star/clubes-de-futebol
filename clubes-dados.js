@@ -64,6 +64,16 @@ const CLUBES = [
     { nome: "Colegiales", id: "colegiales", pais: "ARG", pagina: "america-sul.html" },
     { nome: "Comunicaciones", id: "comunicaciones", pais: "ARG", pagina: "america-sul.html" },
     { nome: "Club Deportivo Español", id: "club-deportivo-espanol", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Defensores Unidos", id: "defensores-unidos", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Estudiantes de Buenos Aires", id: "estudiantes-ba", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Fénix", id: "fenix", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Flandria", id: "flandria", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Sacachispas", id: "sacachispas", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "San Miguel", id: "san-miguel", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "San Telmo", id: "san-telmo", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Talleres (RE)", id: "talleres-re", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "UAI Urquiza", id: "uai-urquiza", pais: "ARG", pagina: "america-sul.html" },
+
 
     /* Clubes da Bolívia */
     { nome: "The Strongest", id: "the-strongest", pais: "BOL", pagina: "america-sul.html" },
@@ -170,6 +180,7 @@ const CLUBES = [
     { nome: "Lagarto", id: "lagarto", pais: "BRA", pagina: "america-sul.html" },
     { nome: "Paragominas", id: "paragominas", pais: "BRA", pagina: "america-sul.html" },
     { nome: "Cianorte", id: "cianorte", pais: "BRA", pagina: "america-sul.html" },
+    { nome: "Icasa", id: "icasa", pais: "BRA", pagina: "america-sul.html" },
 
     /* Clubes do Chile */
     { nome: "Colo-Colo", id: "colo-colo", pais: "CHI", pagina: "america-sul.html" },
