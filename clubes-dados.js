@@ -231,7 +231,16 @@ const CLUBES = [
     { nome: "Portland Timbers", id: "portland-timbers", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "San Jose Earthquakes", id: "san-jose-earthquakes", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "LA Galaxy", id: "la-galaxy", pais: "USA", pagina: "america-norte-central-caribe.html" },
-    { nome: "Los Angeles FC", id: "los-angeles-fc", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "Los Angeles FC", id: "los-angeles-fc", pais: "USA", pagina: "america-norte-central-caribe.html" },    
+    { nome: "Nashville SC", id: "nashville-sc", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "New York City FC", id: "new-york-city-fc", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "Inter Miami CF", id: "inter-miami", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "Birmingham Legion FC", id: "birmingham-legion", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "Phoenix Rising FC", id: "phoenix-rising", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "FC Arizona", id: "fc-arizona", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "FC Tucson", id: "fc-tucson", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "Sporting Arizona", id: "sporting-arizona", pais: "USA", pagina: "america-norte-central-caribe.html" },
+
 
     /* Clubes da Espanha */
     { nome: "Real Madrid", id: "real-madrid", pais: "ESP", pagina: "europa.html" },
