@@ -1,4 +1,4 @@
-const CLUBES = [ 
+const CLUBES = [
     /* Clubes da Argentina */
     { nome: "Boca Juniors", id: "boca-juniors", pais: "ARG", pagina: "america-sul.html" },
     { nome: "River Plate", id: "river-plate", pais: "ARG", pagina: "america-sul.html" },
@@ -86,15 +86,24 @@ const CLUBES = [
     { nome: "Deportivo Merlo", id: "deportivo-merlo", pais: "ARG", pagina: "america-sul.html" },
     { nome: "Luján", id: "lujan", pais: "ARG", pagina: "america-sul.html" },
     { nome: "San Martín (Burzaco)", id: "san-martin-burzaco", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Argentino (Rosário)", id: "argentino-de-rosario", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Atlas-ARG", id: "atlas-arg", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Central Ballester", id: "central-ballester", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Centro Español", id: "centro-espanol", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Claypole", id: "claypole", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Deportivo Paraguayo", id: "deportivo-paraguayo", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Juventud Unida", id: "juventud-unida", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Liniers", id: "liniers", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Atlético Lugano", id: "atletico-lugano", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Deportivo Muñiz", id: "deportivo-muniz", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Puerto Nuevo", id: "puerto-nuevo", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Real Pilar", id: "real-pilar", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Yupanqui", id: "yupanqui", pais: "ARG", pagina: "america-sul.html" },
     { nome: "", id: "", pais: "ARG", pagina: "america-sul.html" },
     { nome: "", id: "", pais: "ARG", pagina: "america-sul.html" },
-    { nome: "", id: "", pais: "ARG", pagina: "america-sul.html" },
-    { nome: "", id: "", pais: "ARG", pagina: "america-sul.html" },
-    { nome: "", id: "", pais: "ARG", pagina: "america-sul.html" },
-    { nome: "", id: "", pais: "ARG", pagina: "america-sul.html" },
-     
 
-    
+
+
 
 
     /* Clubes da Bolívia */
@@ -235,14 +244,14 @@ const CLUBES = [
     { nome: "Atlético Ottawa", id: "atletico-ottawa", pais: "CAN", pagina: "america-norte-central-caribe.html" },
     { nome: "Cavalry FC", id: "cavalry-fc", pais: "CAN", pagina: "america-norte-central-caribe.html" },
     { nome: "HFX Wanderers", id: "hfx-wanderers", pais: "CAN", pagina: "america-norte-central-caribe.html" },
-    { nome: "Pacific FC", id: "pacific-fc", pais: "CAN", pagina: "america-norte-central-caribe.html" },   
+    { nome: "Pacific FC", id: "pacific-fc", pais: "CAN", pagina: "america-norte-central-caribe.html" },
     { nome: "York United", id: "york-united", pais: "CAN", pagina: "america-norte-central-caribe.html" },
     { nome: "Alliance United", id: "alliance-united", pais: "CAN", pagina: "america-norte-central-caribe.html" },
     { nome: "Vaughan Azzurri", id: "vaughan-azzurri", pais: "CAN", pagina: "america-norte-central-caribe.html" },
     { nome: "North Toronto Nitros", id: "north-toronto-nitros", pais: "CAN", pagina: "america-norte-central-caribe.html" },
     { nome: "TSS FC Rovers", id: "tss-fc-rovers", pais: "CAN", pagina: "america-norte-central-caribe.html" },
     { nome: "Altitude FC", id: "altitude-fc-can", pais: "CAN", pagina: "america-norte-central-caribe.html" },
-    { nome: "AS Blainville", id: "as-blainville", pais: "CAN", pagina: "america-norte-central-caribe.html" },    
+    { nome: "AS Blainville", id: "as-blainville", pais: "CAN", pagina: "america-norte-central-caribe.html" },
     { nome: "FC Laval", id: "fc-laval-can", pais: "CAN", pagina: "america-norte-central-caribe.html" },
     { nome: "Guelph United", id: "guelph-united", pais: "CAN", pagina: "america-norte-central-caribe.html" },
     { nome: "Hamilton United", id: "hamilton-united", pais: "CAN", pagina: "america-norte-central-caribe.html" },
@@ -264,7 +273,7 @@ const CLUBES = [
     { nome: "Portland Timbers", id: "portland-timbers", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "San Jose Earthquakes", id: "san-jose-earthquakes", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "LA Galaxy", id: "la-galaxy", pais: "USA", pagina: "america-norte-central-caribe.html" },
-    { nome: "Los Angeles FC", id: "los-angeles-fc", pais: "USA", pagina: "america-norte-central-caribe.html" },    
+    { nome: "Los Angeles FC", id: "los-angeles-fc", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "Nashville SC", id: "nashville-sc", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "New York City FC", id: "new-york-city-fc", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "Inter Miami CF", id: "inter-miami", pais: "USA", pagina: "america-norte-central-caribe.html" },
@@ -285,7 +294,7 @@ const CLUBES = [
     { nome: "Austin FC", id: "austin-fc", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "Colorado Rapids", id: "colorado-rapids", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "FC Dallas", id: "fc-dallas", pais: "USA", pagina: "america-norte-central-caribe.html" },
-    { nome: "Houston Dynamo", id: "houston-dynamo", pais: "USA", pagina: "america-norte-central-caribe.html" },    
+    { nome: "Houston Dynamo", id: "houston-dynamo", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "Sporting Kansas City", id: "sporting-kansas-city", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "Minnesota United FC", id: "minnesota-united", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "Real Salt Lake", id: "real-salt-lake", pais: "USA", pagina: "america-norte-central-caribe.html" },
@@ -296,8 +305,8 @@ const CLUBES = [
     { nome: "Mamelodi Sundowns", id: "mamelodi-sundowns", pais: "RSA", pagina: "africa.html" },
     { nome: "", id: "", pais: "RSA", pagina: "africa.html" },
     { nome: "", id: "", pais: "RSA", pagina: "africa.html" },
-    
-    
+
+
     /* Clubes da Espanha */
     { nome: "Real Madrid", id: "real-madrid", pais: "ESP", pagina: "europa.html" },
     { nome: "FC Barcelona", id: "barcelona", pais: "ESP", pagina: "europa.html" },
