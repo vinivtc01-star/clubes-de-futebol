@@ -73,6 +73,16 @@ const CLUBES = [
     { nome: "San Telmo", id: "san-telmo", pais: "ARG", pagina: "america-sul.html" },
     { nome: "Talleres (RE)", id: "talleres-re", pais: "ARG", pagina: "america-sul.html" },
     { nome: "UAI Urquiza", id: "uai-urquiza", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Argentino (Merlo)", id: "argentino-de-merlo", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Deportivo Armenio", id: "deportivo-armenio", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Cañuelas", id: "canuelas", pais: "ARG", pagina: "america-sul.html" },
+
+    
+    
+
+    
+
+    
 
 
     /* Clubes da Bolívia */
