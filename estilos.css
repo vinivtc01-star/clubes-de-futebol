@@ -176,7 +176,7 @@ text-decoration: none; /* remove sublinhado */
 }
 
 /* Efeito hover */
-.cartao-confed {
+.cartao-confed { 
   background-color: white; /* fundo branco */
   border-radius: 12px; /* bordas arredondadas */
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* sombra */
@@ -265,7 +265,7 @@ text-decoration: none; /* remove sublinhado */
     padding: 15px; /* espaçamento interno */
     box-shadow: 0 0 10px rgba(0,0,0,0.2); /* sombra */
     text-align: left; /* alinha o texto à esquerda */
-    font-family: Arial, sans-serif; /* fonte limpa */
+    font-family: Arial, sans-serif; /* fonte limpa */    
 }
 
 .card-img { /* estilo da imagem do cartão */
@@ -329,7 +329,7 @@ text-decoration: none; /* remove sublinhado */
 /* Estilo para links de destaque <a> da CONCACAF (ex:NAFU) e das Subregiões da Ásia (ex:AFF) - (AFC) */
 .link-destaque { /* estilo do link */
     color: black; /* cor preta */
-    text-decoration: none; /* remove sublinhado */
+    text-decoration: underline; /* remove sublinhado */
 }
 
 /* Efeito hover: fica preto ao passar o mouse */
