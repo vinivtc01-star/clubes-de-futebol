@@ -1,4 +1,6 @@
 const CLUBES = [
+                            /*CONMEBOL - América do Sul*/
+
     /* Clubes da Argentina */
     { nome: "Boca Juniors", id: "boca-juniors", pais: "ARG", pagina: "america-sul.html" },
     { nome: "River Plate", id: "river-plate", pais: "ARG", pagina: "america-sul.html" },
@@ -103,9 +105,6 @@ const CLUBES = [
     { nome: "", id: "", pais: "ARG", pagina: "america-sul.html" },
 
 
-
-
-
     /* Clubes da Bolívia */
     { nome: "The Strongest", id: "the-strongest", pais: "BOL", pagina: "america-sul.html" },
     { nome: "Bolívar", id: "bolivar", pais: "BOL", pagina: "america-sul.html" },
@@ -125,6 +124,12 @@ const CLUBES = [
     { nome: "Universitario de Sucre", id: "universitario-de-sucre", pais: "BOL", pagina: "america-sul.html" },
     { nome: "Palmaflor", id: "palmaflor", pais: "BOL", pagina: "america-sul.html" },
     { nome: "Vaca Díez", id: "vaca-diez", pais: "BOL", pagina: "america-sul.html" },
+    { nome: "Chaco Petrolero", id: "chaco-petrolero", pais: "BOL", pagina: "america-sul.html" },
+    { nome: "Destroyer's", id: "destroyers", pais: "BOL", pagina: "america-sul.html" },
+    { nome: "Unión Central", id: "union-central", pais: "BOL", pagina: "america-sul.html" },
+    { nome: "", id: "", pais: "BOL", pagina: "america-sul.html" },
+    { nome: "", id: "", pais: "BOL", pagina: "america-sul.html" },
+
 
     /* Clubes do Brasil */
     { nome: "Santos FC", id: "santos-fc", pais: "BRA", pagina: "america-sul.html" },
@@ -272,6 +277,9 @@ const CLUBES = [
     { nome: "Nacional", id: "nacional", pais: "URU", pagina: "america-sul.html" },
     { nome: "Peñarol", id: "penarol", pais: "URU", pagina: "america-sul.html" },
 
+
+                        /*CONCACAF - América do Norte, Central e Caribe*/
+
     /* Clubes da Canadá */
     { nome: "Toronto FC", id: "toronto-fc", pais: "CAN", pagina: "america-norte-central-caribe.html" },
     { nome: "CF Montréal", id: "cf-montreal", pais: "CAN", pagina: "america-norte-central-caribe.html" },
@@ -337,17 +345,25 @@ const CLUBES = [
     { nome: "San Diego FC", id: "san-diego-fc", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "St. Louis City SC", id: "st-louis-city", pais: "USA", pagina: "america-norte-central-caribe.html" },
 
+
+                        /*CAF-África*/
     /* Clubes da Áfica do Sul */
     { nome: "Mamelodi Sundowns", id: "mamelodi-sundowns", pais: "RSA", pagina: "africa.html" },
     { nome: "", id: "", pais: "RSA", pagina: "africa.html" },
     { nome: "", id: "", pais: "RSA", pagina: "africa.html" },
 
-
+                        /*UEFA-Europa*/
     /* Clubes da Espanha */
     { nome: "Real Madrid", id: "real-madrid", pais: "ESP", pagina: "europa.html" },
     { nome: "FC Barcelona", id: "barcelona", pais: "ESP", pagina: "europa.html" },
     { nome: "Atlético de Madrid", id: "atletico-de-madrid", pais: "ESP", pagina: "europa.html" },
     { nome: "Sevilla FC", id: "sevilla", pais: "ESP", pagina: "europa.html" },
+
+
+                        /*AFC-Ásia*/
+
+
+                        /*OFC-Oceania*/
 
 
 
