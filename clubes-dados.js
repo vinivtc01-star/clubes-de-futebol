@@ -349,7 +349,7 @@ const CLUBES = [
                         /*CAF-África*/
     /* Clubes da Áfica do Sul */
     { nome: "Mamelodi Sundowns", id: "mamelodi-sundowns", pais: "RSA", pagina: "africa.html" },
-    { nome: "", id: "", pais: "RSA", pagina: "africa.html" },
+    { nome: "Santos", id: "santos-rsa", pais: "RSA", pagina: "africa.html" },
     { nome: "", id: "", pais: "RSA", pagina: "africa.html" },
 
                         /*UEFA-Europa*/
