@@ -1,5 +1,5 @@
 const CLUBES = [
-                            /*CONMEBOL - América do Sul*/
+    /*CONMEBOL - América do Sul*/
 
     /* Clubes da Argentina */
     { nome: "Boca Juniors", id: "boca-juniors", pais: "ARG", pagina: "america-sul.html" },
@@ -292,12 +292,28 @@ const CLUBES = [
     { nome: "Once Caldas", id: "once-caldas", pais: "COL", pagina: "america-sul.html" },
     { nome: "Patriotas", id: "patriotas-col", pais: "COL", pagina: "america-sul.html" },
     { nome: "Santa Fe", id: "santa-fe", pais: "COL", pagina: "america-sul.html" },
+    { nome: "Atlético FC", id: "atletico-fc", pais: "COL", pagina: "america-sul.html" },
+    { nome: "Atlético Huila", id: "atletico-huila", pais: "COL", pagina: "america-sul.html" },
+    { nome: "Barranquilla FC", id: "barranquilla-fc", pais: "COL", pagina: "america-sul.html" },
+    { nome: "Boca Juniors de Cali", id: "boca-juniors-cali", pais: "COL", pagina: "america-sul.html" },
+    { nome: "Bogotá FC", id: "bogota-fc", pais: "COL", pagina: "america-sul.html" },
+    { nome: "Cúcuta Deportivo", id: "cucuta-deportivo", pais: "COL", pagina: "america-sul.html" },
+    { nome: "Deportes Quindío", id: "deportes-quindio", pais: "COL", pagina: "america-sul.html" },
+    { nome: "Internacional Palmira", id: "internacional-palmira", pais: "COL", pagina: "america-sul.html" },
+    { nome: "Itagüí Leones", id: "itagui-leones", pais: "COL", pagina: "america-sul.html" },
+    { nome: "Llaneros", id: "llaneros", pais: "COL", pagina: "america-sul.html" },
+    { nome: "Orsomarso", id: "orsomarso", pais: "COL", pagina: "america-sul.html" },
+    { nome: "Real Cartagena", id: "real-cartagena", pais: "COL", pagina: "america-sul.html" },
+    { nome: "Real Cundinamarca", id: "real-cundinamarca", pais: "COL", pagina: "america-sul.html" },
+    { nome: "Real Santander", id: "real-santander", pais: "COL", pagina: "america-sul.html" },
+    { nome: "Tigres", id: "tigres-col", pais: "COL", pagina: "america-sul.html" },
+    { nome: "Unión Magdalena", id: "union-magdalena", pais: "COL", pagina: "america-sul.html" },
     { nome: "", id: "", pais: "COL", pagina: "america-sul.html" },
     { nome: "", id: "", pais: "COL", pagina: "america-sul.html" },
     { nome: "", id: "", pais: "COL", pagina: "america-sul.html" },
     { nome: "", id: "", pais: "COL", pagina: "america-sul.html" },
     { nome: "", id: "", pais: "COL", pagina: "america-sul.html" },
-    { nome: "", id: "", pais: "COL", pagina: "america-sul.html" },
+
 
     /* Clubes do Uruguai */
     { nome: "Nacional", id: "nacional", pais: "URU", pagina: "america-sul.html" },
@@ -307,7 +323,7 @@ const CLUBES = [
     { nome: "", id: "", pais: "URU", pagina: "america-sul.html" },
 
 
-                        /*CONCACAF - América do Norte, Central e Caribe*/
+    /*CONCACAF - América do Norte, Central e Caribe*/
 
     /* Clubes da Canadá */
     { nome: "Toronto FC", id: "toronto-fc", pais: "CAN", pagina: "america-norte-central-caribe.html" },
@@ -375,13 +391,13 @@ const CLUBES = [
     { nome: "St. Louis City SC", id: "st-louis-city", pais: "USA", pagina: "america-norte-central-caribe.html" },
 
 
-                        /*CAF-África*/
+    /*CAF-África*/
     /* Clubes da Áfica do Sul */
     { nome: "Mamelodi Sundowns", id: "mamelodi-sundowns", pais: "RSA", pagina: "africa.html" },
     { nome: "Santos", id: "santos-rsa", pais: "RSA", pagina: "africa.html" },
     { nome: "", id: "", pais: "RSA", pagina: "africa.html" },
 
-                        /*UEFA-Europa*/
+    /*UEFA-Europa*/
     /* Clubes da Espanha */
     { nome: "Real Madrid", id: "real-madrid", pais: "ESP", pagina: "europa.html" },
     { nome: "FC Barcelona", id: "barcelona", pais: "ESP", pagina: "europa.html" },
@@ -389,10 +405,10 @@ const CLUBES = [
     { nome: "Sevilla FC", id: "sevilla", pais: "ESP", pagina: "europa.html" },
 
 
-                        /*AFC-Ásia*/
+    /*AFC-Ásia*/
 
 
-                        /*OFC-Oceania*/
+    /*OFC-Oceania*/
 
 
 
