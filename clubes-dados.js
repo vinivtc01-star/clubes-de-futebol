@@ -396,6 +396,14 @@ const CLUBES = [
     { nome: "Mamelodi Sundowns", id: "mamelodi-sundowns", pais: "RSA", pagina: "africa.html" },
     { nome: "Santos", id: "santos-rsa", pais: "RSA", pagina: "africa.html" },
     { nome: "", id: "", pais: "RSA", pagina: "africa.html" },
+    { nome: "", id: "", pais: "RSA", pagina: "africa.html" },
+    { nome: "", id: "", pais: "RSA", pagina: "africa.html" },
+    { nome: "", id: "", pais: "RSA", pagina: "africa.html" },
+
+    /* Clubes do Egito*/
+    { nome: "Pyramids", id: "pyramids", pais: "EGY", pagina: "africa.html" },
+    { nome: "", id: "", pais: "EGY", pagina: "africa.html" },
+    { nome: "", id: "", pais: "EGY", pagina: "africa.html" },
 
     /*UEFA-Europa*/
     /* Clubes da Espanha */
