@@ -357,7 +357,7 @@ const CLUBES = [
     { nome: "Colón de Portoviejo", id: "colon-de-portoviejo", pais: "ECU", pagina: "america-sul.html" },
     { nome: "CD Ferroviarios", id: "cd-ferroviarios", pais: "ECU", pagina: "america-sul.html" },
     { nome: "CSD Vargas Torres", id: "csd-vargas-torres", pais: "ECU", pagina: "america-sul.html" },
-    { nome: "22 de Julio FC", id: "22-de-julio-fc", pais: "ECU", pagina: "america-sul.html" },
+    { nome: "22 de Julio FC", id: "vinte-e-dois-de-julio-fc", pais: "ECU", pagina: "america-sul.html" },
     { nome: "", id: "", pais: "ECU", pagina: "america-sul.html" },
     { nome: "", id: "", pais: "ECU", pagina: "america-sul.html" },
     { nome: "", id: "", pais: "ECU", pagina: "america-sul.html" },
