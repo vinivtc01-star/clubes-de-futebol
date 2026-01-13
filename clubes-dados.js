@@ -539,10 +539,6 @@ const CLUBES = [
     { nome: "Deportivo Wanka", id: "deportivo-wanka", pais: "PER", pagina: "america-sul.html" },
     { nome: "", id: "", pais: "PER", pagina: "america-sul.html" },
     { nome: "", id: "", pais: "PER", pagina: "america-sul.html" },
-  
-
-
-
 
     /* Clubes do Uruguai */
     { nome: "Nacional", id: "nacional", pais: "URU", pagina: "america-sul.html" },
