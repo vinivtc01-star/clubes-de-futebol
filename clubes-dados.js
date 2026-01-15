@@ -601,9 +601,11 @@ const CLUBES = [
     { nome: "Wanderers", id: "wanderers-artigas-uru", pais: "URU", pagina: "america-sul.html" },
     { nome: "", id: "", pais: "URU", pagina: "america-sul.html" }, 
     { nome: "", id: "", pais: "URU", pagina: "america-sul.html" },
-    
-     
 
+     /* Clubes da Venezuela */
+    { nome: "Carabobo", id: "carabobo-ven", pais: "VEN", pagina: "america-sul.html" },
+    { nome: "", id: "", pais: "VEN", pagina: "america-sul.html" },  
+    
 
     /*CONCACAF - América do Norte, Central e Caribe*/
 
