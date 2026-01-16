@@ -679,7 +679,8 @@ const CLUBES = [
     { nome: "CS Longueuil", id: "cs-longueuil", pais: "CAN", pagina: "america-norte-central-caribe.html" },
     { nome: "FC Gatineau", id: "fc-gatineau", pais: "CAN", pagina: "america-norte-central-caribe.html" },
     { nome: "Mont-Royal Outremont", id: "mont-royal-outremont", pais: "CAN", pagina: "america-norte-central-caribe.html" },
-
+    { nome: "", id: "", pais: "CAN", pagina: "america-norte-central-caribe.html" },
+    { nome: "", id: "", pais: "CAN", pagina: "america-norte-central-caribe.html" },
 
     /* Clubes dos Estados Unidos */
     { nome: "Atlanta United", id: "atlanta-united", pais: "USA", pagina: "america-norte-central-caribe.html" },
@@ -714,7 +715,13 @@ const CLUBES = [
     { nome: "Real Salt Lake", id: "real-salt-lake", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "San Diego FC", id: "san-diego-fc", pais: "USA", pagina: "america-norte-central-caribe.html" },
     { nome: "St. Louis City SC", id: "st-louis-city", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "", id: "", pais: "USA", pagina: "america-norte-central-caribe.html" },
+    { nome: "", id: "", pais: "USA", pagina: "america-norte-central-caribe.html" },
 
+    /* Clubes do México */
+    { nome: "Club América", id: "club-america-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },
+    { nome: "", id: "", pais: "MEX", pagina: "america-norte-central-caribe.html" },
+    { nome: "", id: "", pais: "MEX", pagina: "america-norte-central-caribe.html" },
 
     /*CAF-África*/
     /* Clubes da Áfica do Sul */
