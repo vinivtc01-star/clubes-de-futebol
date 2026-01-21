@@ -747,14 +747,14 @@ const CLUBES = [
     { nome: "Correcaminos UAT", id: "correcaminos-uat-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },
     { nome: "Venados FC", id: "venados-fc-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },
     { nome: "Dorados de Sinaloa", id: "dorados-de-sinaloa-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },
-    { nome: "Jaiba Brava", id: "jaiba-brava-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },    
+    { nome: "Jaiba Brava", id: "jaiba-brava-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },
     { nome: "Alebrijes de Oaxaca", id: "alebrijes-de-oaxaca-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },
-    { nome: "Atlético Morelia", id: "atletico-morelia-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },    
+    { nome: "Atlético Morelia", id: "atletico-morelia-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },
     { nome: "Irapuato", id: "irapuato-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },
-    { nome: "Cimarrones de Sonora", id: "cimarrones-de-sonora-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },    
+    { nome: "Cimarrones de Sonora", id: "cimarrones-de-sonora-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },
     { nome: "Tlaxcala", id: "tlaxcala-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },
     { nome: "Atlético La Paz", id: "atletico-la-paz-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },
-    { nome: "Tepatitlán FC", id: "tepatitlan-fc-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },    
+    { nome: "Tepatitlán FC", id: "tepatitlan-fc-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },
     { nome: "La Piedad", id: "la-piedad-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },
     { nome: "Alacranes de Durango", id: "alacranes-de-durango-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },
     { nome: "Pioneros de Cancún", id: "pioneros-de-cancun-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },
@@ -771,6 +771,22 @@ const CLUBES = [
     { nome: "Universidad Autónoma de Zacatecas", id: "universidad-autonoma-de-zacatecas-mex", pais: "MEX", pagina: "america-norte-central-caribe.html" },
     { nome: "", id: "", pais: "MEX", pagina: "america-norte-central-caribe.html" },
     { nome: "", id: "", pais: "MEX", pagina: "america-norte-central-caribe.html" },
+
+    /* clubes de Belize */
+    { nome: "Verdes FC", id: "verdes-fc-blz", pais: "BLZ", pagina: "america-norte-central-caribe.html" },
+    { nome: "Altitude FC", id: "altitude-fc-blz", pais: "BLZ", pagina: "america-norte-central-caribe.html" },
+    { nome: "San Pedro Pirates", id: "san-pedro-pirates-blz", pais: "BLZ", pagina: "america-norte-central-caribe.html" },
+    { nome: "Belmopan Bandits", id: "belmopan-bandits-blz", pais: "BLZ", pagina: "america-norte-central-caribe.html" },
+    { nome: "", id: "", pais: "BLZ", pagina: "america-norte-central-caribe.html" },
+    { nome: "", id: "", pais: "BLZ", pagina: "america-norte-central-caribe.html" },
+
+    /*Costa Rica*/
+    { nome: "Alajuelense", id: "alajuelense-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "", id: "", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "", id: "", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+   
+
+
 
     /*CAF-África*/
     /* Clubes da Áfica do Sul */
