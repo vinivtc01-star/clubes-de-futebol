@@ -650,6 +650,8 @@ const CLUBES = [
 
     /*CONCACAF - América do Norte, Central e Caribe*/
 
+    /*Zona norte-americana (NAFU) - 3*/
+
     /* Clubes da Canadá */
     { nome: "Toronto FC", id: "toronto-fc", pais: "CAN", pagina: "america-norte-central-caribe.html" },
     { nome: "CF Montréal", id: "cf-montreal", pais: "CAN", pagina: "america-norte-central-caribe.html" },
@@ -772,6 +774,8 @@ const CLUBES = [
     { nome: "", id: "", pais: "MEX", pagina: "america-norte-central-caribe.html" },
     { nome: "", id: "", pais: "MEX", pagina: "america-norte-central-caribe.html" },
 
+    /*Zona centro-americana (UNCAF) - 7*/
+
     /* clubes de Belize */
     { nome: "Verdes FC", id: "verdes-fc-blz", pais: "BLZ", pagina: "america-norte-central-caribe.html" },
     { nome: "Altitude FC", id: "altitude-fc-blz", pais: "BLZ", pagina: "america-norte-central-caribe.html" },
@@ -780,11 +784,35 @@ const CLUBES = [
     { nome: "", id: "", pais: "BLZ", pagina: "america-norte-central-caribe.html" },
     { nome: "", id: "", pais: "BLZ", pagina: "america-norte-central-caribe.html" },
 
-    /*Costa Rica*/
+    /*Clubes da Costa Rica*/
     { nome: "Alajuelense", id: "alajuelense-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "Deportivo Saprissa", id: "deportivo-saprissa-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "Herediano", id: "herediano-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "Cartaginés", id: "cartagines-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "Municipal Liberia", id: "municipal-liberia-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "Pérez Zeledón", id: "perez-zeledon-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "Sporting FC", id: "sporting-fc-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "Puntarenas FC", id: "puntarenas-fc-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "Santos de Guápiles", id: "santos-de-guapiles-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "San Carlos", id: "san-carlos-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "Universidad de Costa Rica", id: "universidad-de-costa-rica-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "AD Carmelita", id: "ad-carmelita-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "Municipal Grecia", id: "municipal-grecia-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "Guadalupe FC", id: "guadalupe-fc-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "AD Guanacasteca", id: "ad-guanacasteca-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "Uruguay de Coronado", id: "uruguay-de-coronado-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "ADR Jicaral", id: "adr-jicaral-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "Barrio México", id: "barrio-mexico-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "Santa Ana FC", id: "santa-ana-fc-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "Escorpiones de Belén FC", id: "escorpiones-de-belen-fc-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
+    { nome: "FC Moravia FCM", id: "fc-moravia-fcm-crc", pais: "CRC", pagina: "america-norte-central-caribe.html" },
     { nome: "", id: "", pais: "CRC", pagina: "america-norte-central-caribe.html" },
     { nome: "", id: "", pais: "CRC", pagina: "america-norte-central-caribe.html" },
-   
+
+    /*Clubes de El Salvador*/
+    { nome: "", id: " -slv", pais: "SLV", pagina: "america-norte-central-caribe.html" }, 
+    { nome: "", id: " -slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+
 
 
 
