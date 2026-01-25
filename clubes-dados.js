@@ -810,7 +810,26 @@ const CLUBES = [
     { nome: "", id: "", pais: "CRC", pagina: "america-norte-central-caribe.html" },
 
     /*Clubes de El Salvador*/
-    { nome: "", id: " -slv", pais: "SLV", pagina: "america-norte-central-caribe.html" }, 
+    { nome: "Águila", id: "aguila-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "FAS", id: "fas-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "Alianza FC", id: "alianza-fc-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "Isidro Metapán", id: "isidro-metapan-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "LA Firpo", id: "la-firpo-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "Platense", id: "platense-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "CD Dragón", id: "cd-dragon-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "CD Atlético Marte", id: "cd-atletico-marte-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "Municipal Limeño", id: "municipal-limeno-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "Sonsonate", id: "sonsonate-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "Once Municipal", id: "once-municipal-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "Universidad de El Salvador", id: "universidad-de-el-salvador-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "Zacatecoluca FC", id: "zacatecoluca-fc-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "Fuerte San Francisco", id: "fuerte-san-francisco-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "Hércules", id: "hercules-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "CD Cacahuatique", id: "cd-cacahuatique-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "Inter FA", id: "inter-fa-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "Juventud Independiente", id: "juventud-independiente-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "Titán", id: "titan-slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
+    { nome: "", id: " -slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
     { nome: "", id: " -slv", pais: "SLV", pagina: "america-norte-central-caribe.html" },
 
 
