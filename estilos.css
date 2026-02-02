@@ -133,6 +133,10 @@ text-decoration: none; /* remove sublinhado */
   color: #555; /* cor cinza */
 }
 
+.fundo-da-pag { /* estilo do fundo da página */
+  background-color: white; /* fundo cinza claro */
+}
+
 /*Rodapé */
 .rodape-site { /* estilo do rodapé */
   background-image: url(imagens-de-fundo/fifa.png); /* imagem de fundo */
