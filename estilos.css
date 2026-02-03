@@ -509,6 +509,23 @@ position: relative;
   border-radius: 50%;
 }
 
+/* IMAGEM DO ELENCO ATUAL POP UP */
+.imagem-time {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+  display: block;
+  margin: 10px auto;
+}
+
+/* IMAGEM DO ESTÁDIO POP UP */
+.imagem-estadio {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 12px;
+  display: block;
+  margin: 10px auto;
+}
 
 
 /* CONTEÚDO */
