@@ -560,17 +560,7 @@ position: relative;
   } 
 }
 
-/* Ajustes para dispositivos móveis na janela pop up */
-@media (max-width: 600px) {
-  .imagem-time,
-  .imagem-estadio {
-    max-width: 100%;
-  }
 
-  .escudo-clube {
-    width: 70px;
-  }
-}
 
 
 
