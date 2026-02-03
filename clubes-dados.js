@@ -2,7 +2,7 @@ const CLUBES = [
     /*CONMEBOL - América do Sul*/
 
     /* Clubes da Argentina */
-    { nome: "Boca Juniors", id: "boca-juniors", pais: "ARG", pagina: "america-sul.html" },
+    { nome: "Boca Juniors", id: "boca-juniors-arg", pais: "ARG", pagina: "america-sul.html" },
     { nome: "River Plate", id: "river-plate-arg", pais: "ARG", pagina: "america-sul.html" },
     { nome: "Independiente", id: "independiente", pais: "ARG", pagina: "america-sul.html" },
     { nome: "Racing Club", id: "racing-club", pais: "ARG", pagina: "america-sul.html" },

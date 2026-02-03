@@ -84,7 +84,7 @@ body { /* estilo do corpo da página */
   box-shadow: 0 4px 12px rgba(56, 10, 68, 0.1); /* sombra suave */
   overflow: hidden;          /* esconde overflow */
   transition: transform 0.2s ease; /* animação suave */
-  text-align: left;          /* alinha texto à esquerda */
+  text-align: center;          /* alinha texto ao centro */
 }
 
 /* Efeito hover */
@@ -401,6 +401,138 @@ text-decoration: none; /* remove sublinhado */
   box-shadow: 0 0 20px rgba(245, 196, 0, 0.7);
   transition: background-color 0.4s ease, box-shadow 0.4s ease; 
 }
+
+/* Estilos do Modal */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-conteudo {
+  background: #fff;
+  padding: 20px;
+  max-width: 600px;
+  width: 90%;
+  border-radius: 8px;
+}
+
+#fechar-modal {
+  float: right;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* Link de informações do clube dentro do modal */
+.link-info {
+  display: inline-block; /* exibe como bloco inline */
+  margin-top: 8px; /* espaçamento superior */
+  background-color: #003366; /* cor de fundo */
+  color: white; /* cor do texto */
+  padding: 6px 12px; /* espaçamento interno */
+  border-radius: 5px; /* bordas arredondadas */
+  text-decoration: none; /* remove sublinhado */
+  transition: 0.3s; /* transição suave */
+ color: white; /* cor do texto */
+text-decoration: none; /* remove sublinhado */ 
+position: relative;
+  z-index: 10;
+  pointer-events: auto; /* permite clique */
+}
+
+/* MODAL BASE */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+/* CONTEÚDO Da JANELA POUP UP */
+/* CAIXA PRINCIPAL */
+.modal-box {
+  position: relative;
+  background: #ffffff;
+  width: 90%;
+  max-width: 900px;
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 12px;
+  z-index: 2;
+}
+
+/* BOTÃO FECHAR */
+.fechar-modal {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* HEADER COM FUNDO */
+.modal-header {
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
+.modal-header h2 {
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+.modal-header p {
+  font-size: 15px;
+}
+
+/* ESCUDO DA JANELA POP UP*/
+.escudo-clube {
+  width: 150px;
+  background: white;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+
+
+/* CONTEÚDO */
+.modal-conteudo {
+  padding: 20px;
+}
+
+.modal-secao {
+  margin-bottom: 25px;
+}
+
+.modal-secao h3 {
+  margin-bottom: 10px;
+  color: #003366;
+}
+
+/* IMAGEM DO TIME */
+.imagem-time {
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+
 
 
 /* Ajustes para dispositivos móveis */
