@@ -552,7 +552,13 @@ position: relative;
 
 
 
-
+/* Ajustes para dispositivos móveis */
+@media (max-width: 600px) {   /* para telas menores que 600px */  
+  .menu-principal a { /* estilo dos links do menu */
+    font-size: 14px; /* reduz o tamanho da fonte */
+    padding: 6px 8px; /* reduz o padding */
+  } 
+}
 
 /* Ajustes para dispositivos móveis na janela pop up */
 @media (max-width: 600px) {
