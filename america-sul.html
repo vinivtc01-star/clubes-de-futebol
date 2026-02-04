@@ -71,14 +71,20 @@
       <div>
         <div class="grade-clubes">
 
-          <!--Boca Juniors -->
-          <article class="cartao-clube" id="boca-juniors-arg" data-nome="Boca Juniors" data-pais="Argentina" data-fundacao="1905"
-            data-escudo="times/boca-juniors-arg.png" data-fundo="times/boca-fundo.jpg"
-            data-elenco="elenco/elenco-boca-juniors.jpg" data-estadio-nome="La Bombonera"
-            data-estadio-img="estadios/la-bombonera.jpg"
-            data-historia="Fundado em 1905 no bairro de La Boca, o Boca Juniors é um dos clubes mais populares e vitoriosos do futebol mundial.">
-
-            <img src="times/boca-juniors-arg.png">
+          <article class="cartao-clube" id="boca-juniors-arg"
+            data-nome="Club Atlético Boca Juniors"
+            data-historia="A História do Club Atlético Boca Juniors se inicia em 1905, ano em que foi fundado em Buenos Aires, Argentina. O futebol foi desde o começo a essência do clube, e mesmo com o desenvolvimento de outras atividades, permaneceu como a disciplina esportiva sobre a qual se sustenta a entidade e a que lhe valeu seu reconhecimento a nível nacional e internacional. A história do Boca Juniors divide-se em dois períodos: a época amadora até 1930 e a profissional. A nível internacional conquistou 17 torneios internacionais (10 deles a partir de 1999). Obteve também 32 torneios argentinos da era profissional, o segundo maior campeão entre as equipes argentinas"
+            data-mascote-nome="Chanxeneize" 
+            data-mascote-img="mascotes/chanxeneize-boca-juniors.webp" 
+            data-pais="Argentina"
+            data-fundacao="1905" 
+            data-estadio-nome="Alberto J. Armando (La Bombonera)"
+            data-estadio-img="estadios/la-bombonera.jpg" 
+            data-site="https://www.bocajuniors.com.ar"
+            data-escudo="times/boca-juniors-arg.png"
+            data-titulos="Libertadores 6, Copa América 2, Campeonato Argentino 30">
+           
+            <img src="times/boca-juniors-arg.png" class="escudo-card">
             <h3>Boca Juniors</h3>
             <a href="#" class="link-info">Informações do clube</a>
           </article>
@@ -8793,48 +8799,58 @@
     document.getElementById('ano').textContent = new Date().getFullYear();
   </script>
 
+  <!-- MODAL PADRÃO CLUBES -->
   <div id="modal-clube" class="modal">
     <div class="modal-overlay"></div>
 
     <div class="modal-box">
-      <button class="fechar-modal">✖</button>
 
-      <!-- CABEÇALHO -->
-      <div class="modal-header" id="modal-header">
-        <img id="modal-escudo" class="escudo-clube">
-        <div>
-          <h2 id="modal-nome"></h2>
-          <p id="modal-info"></p>
-        </div>
+      <button class="fechar-modal" id="fechar-modal">✖</button>
+
+      <!-- LOGO DO CLUBE -->
+      <div class="modal-topo">
+        <img id="modal-escudo" class="escudo-clube" src="" alt="">
       </div>
 
       <!-- CONTEÚDO -->
       <div class="modal-conteudo">
 
-        <!-- ELENCO -->
-        <section class="modal-secao">
-          <h3>Elenco atual</h3>
-          <img id="modal-elenco" class="imagem-grande">
-        </section>
+        <h2 id="modal-nome" class="modal-nome"></h2>
+        
+        <p><strong>História:</strong></p>
+        <p id="modal-historia"></p>
 
-        <!-- ESTÁDIO -->
-        <section class="modal-secao">
-          <h3 id="modal-estadio-nome"></h3>
-          <img id="modal-estadio-img" class="imagem-grande">
-        </section>
+        <p>
+          <strong>Mascote:</strong>
+          <a id="modal-mascote-link" href="#" target="_blank">
+            <span id="modal-mascote-nome"></span>
+          </a>
+        </p>
 
-        <!-- HISTÓRIA -->
-        <section class="modal-secao">
-          <h3>História</h3>
-          <p id="modal-historia"></p>
-        </section>
+        <p><strong>País:</strong> <span id="modal-pais"></span></p>
+
+        <p><strong>Fundação:</strong> <span id="modal-fundacao"></span></p>
+
+        <p>
+          <strong>Estádio:</strong>
+          <a id="modal-estadio-link" href="#" target="_blank">
+            <span id="modal-estadio-nome"></span>
+          </a>
+        </p>
+
+        <p>
+          <strong>Títulos:</strong> 
+          <span id="modal-titulos"></span>
+        </p>
+
+        <p>
+          <strong>Site:</strong>
+          <a id="modal-site" href="#" target="_blank"></a>
+        </p>
 
       </div>
     </div>
   </div>
-
-
-
 </body>
 
 </html>

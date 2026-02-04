@@ -1,58 +1,71 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+  const modal = document.getElementById("modal-clube");
+
   document.querySelectorAll(".link-info").forEach(link => {
-    link.addEventListener("click", async (e) => {
+    link.addEventListener("click", (e) => {
       e.preventDefault();
-
-      const card = e.target.closest(".cartao-clube");
-      const id = card.dataset.id;
-
-      const resposta = await fetch(`http://localhost:3000/clubes/${id}`);
-      const clube = await resposta.json();
-
-      document.getElementById("nome-clube").innerText = clube.nome;
-      document.getElementById("historia-clube").innerText = clube.historia;
-      document.getElementById("pais-clube").innerText = clube.pais;
-      document.getElementById("fundacao-clube").innerText = clube.fundacao;
-      document.getElementById("site-clube").href = clube.site_oficial;
-
-      document.getElementById("modal-clube").style.display = "flex";
+      console.log("ABRINDO MODAL");
+      modal.style.display = "flex";
     });
   });
 
+});
+
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const modal = document.getElementById("modal-clube");
+  const fechar = document.getElementById("fechar-modal");
+  const overlay = modal.querySelector(".modal-overlay");
+
   document.querySelectorAll(".link-info").forEach(link => {
-  link.addEventListener("click", e => {
-    e.preventDefault();
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
 
-    const c = link.closest(".cartao-clube");
+      const card = e.target.closest(".cartao-clube");
+      if (!card) return;
 
-    document.getElementById("modal-nome").textContent = c.dataset.nome;
-    document.getElementById("modal-info").textContent =
-      `${c.dataset.pais} • Fundação: ${c.dataset.fundacao}`;
+      const data = card.dataset;
 
-    document.getElementById("modal-escudo").src = c.dataset.escudo;
-    document.getElementById("modal-header").style.backgroundImage =
-      `url('${c.dataset.fundo}')`;
+      // Escudo
+      document.getElementById("modal-escudo").src = data.escudo || "";
 
-    document.getElementById("modal-elenco").src = c.dataset.elenco;
+      // Dados principais
+      document.getElementById("modal-nome").innerText = data.nome || "";
+      document.getElementById("modal-pais").innerText = data.pais || "";
+      document.getElementById("modal-fundacao").innerText = data.fundacao || "";
 
-    document.getElementById("modal-estadio-nome").textContent =
-      `Estádio: ${c.dataset.estadioNome}`;
+      // História
+      document.getElementById("modal-historia").innerText = data.historia || "";
 
-    document.getElementById("modal-estadio-img").src =
-      c.dataset.estadioImg;
+      // Títulos
+      document.getElementById("modal-titulos").innerText = data.titulos || "";
 
-    document.getElementById("modal-historia").textContent =
-      c.dataset.historia;
+      // Mascote
+      document.getElementById("modal-mascote-nome").innerText = data.mascoteNome || "";
+      document.getElementById("modal-mascote-link").href = data.mascoteImg || "#";
 
-    document.getElementById("modal-clube").style.display = "flex";
+      // Estádio
+      document.getElementById("modal-estadio-nome").innerText = data.estadioNome || "";
+      document.getElementById("modal-estadio-link").href = data.estadioImg || "#";
+
+      // Site
+      const site = document.getElementById("modal-site");
+      site.href = data.site || "#";
+      site.innerText = "Acessar site";
+
+      modal.style.display = "flex";
+    });
   });
-});
 
-// fechar modal
-document.querySelector(".fechar-modal").onclick =
-document.querySelector(".modal-overlay").onclick = () => {
-  document.getElementById("modal-clube").style.display = "none";
-};
-});
+  fechar.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
 
+  overlay.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
+
+
+});

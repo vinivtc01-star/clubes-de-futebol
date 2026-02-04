@@ -402,48 +402,8 @@ text-decoration: none; /* remove sublinhado */
   transition: background-color 0.4s ease, box-shadow 0.4s ease; 
 }
 
-/* Estilos do Modal */
-.modal {
-  display: none;
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.7);
-  justify-content: center;
-  align-items: center;
-}
-
-.modal-conteudo {
-  background: #fff;
-  padding: 20px;
-  max-width: 600px;
-  width: 90%;
-  border-radius: 8px;
-}
-
-#fechar-modal {
-  float: right;
-  font-size: 22px;
-  cursor: pointer;
-}
-
-/* Link de informações do clube dentro do modal */
-.link-info {
-  display: inline-block; /* exibe como bloco inline */
-  margin-top: 8px; /* espaçamento superior */
-  background-color: #003366; /* cor de fundo */
-  color: white; /* cor do texto */
-  padding: 6px 12px; /* espaçamento interno */
-  border-radius: 5px; /* bordas arredondadas */
-  text-decoration: none; /* remove sublinhado */
-  transition: 0.3s; /* transição suave */
- color: white; /* cor do texto */
-text-decoration: none; /* remove sublinhado */ 
-position: relative;
-  z-index: 10;
-  pointer-events: auto; /* permite clique */
-}
-
-/* MODAL BASE */
+/*JANELA POP UP*/
+/* FUNDO DO MODAL */
 .modal {
   display: none;
   position: fixed;
@@ -456,96 +416,87 @@ position: relative;
 .modal-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0,0,0,0.6);
 }
 
-/* CONTEÚDO Da JANELA POUP UP */
-/* CAIXA PRINCIPAL */
+/* ALTERAR A JANELA POP UP */
 .modal-box {
   position: relative;
-  background: #ffffff;
-  width: 90%;
-  max-width: 900px;
-  max-height: 90vh;
-  overflow-y: auto;
-  border-radius: 12px;
+  background-color: white;
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 16px;
+  padding: 24px;
   z-index: 2;
+  max-height: 85vh;
+  overflow-y: auto;
 }
 
 /* BOTÃO FECHAR */
-.fechar-modal {
-  position: absolute;
+.modal-fechar {
+  position: absolute; 
   top: 10px;
-  right: 14px;
-  background: transparent;
+  right: 15px;
+  background: none;
   border: none;
   font-size: 22px;
   cursor: pointer;
 }
 
-/* HEADER COM FUNDO */
-.modal-header {
-  background-size: cover;
-  background-position: center;
-  padding: 30px;
-  color: white;
+
+/* TOPO */
+.modal-topo {
   text-align: center;
+  margin-bottom: 20px;
 }
 
-.modal-header h2 {
-  margin-top: 10px;
-  font-size: 28px;
-}
-
-.modal-header p {
-  font-size: 15px;
-}
-
-/* ESCUDO DA JANELA POP UP*/
-.escudo-clube {
-  width: 150px;
-  background: white;
-  padding: 8px;
-  border-radius: 50%;
-}
-
-/* IMAGEM DO ELENCO ATUAL POP UP */
-.imagem-time {
-  width: 100%;
-  max-width: 420px;
-  border-radius: 12px;
-  display: block;
-  margin: 10px auto;
-}
-
-/* IMAGEM DO ESTÁDIO POP UP */
-.imagem-estadio {
-  width: 100%;
-  max-width: 520px;
-  border-radius: 12px;
-  display: block;
-  margin: 10px auto;
-}
-
-
-/* CONTEÚDO */
-.modal-conteudo {
-  padding: 20px;
-}
-
-.modal-secao {
-  margin-bottom: 25px;
-}
-
-.modal-secao h3 {
+#modal-escudo {
+  width: 90px;
+  height: auto;
   margin-bottom: 10px;
-  color: #003366;
 }
 
-/* IMAGEM DO TIME */
-.imagem-time {
-  width: 100%;
-  border-radius: 8px;
+/* NOME DO CLUBE DENTRO DO POP UP */
+.modal-nome {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/*ESPAÇAMENTO ENTRE LINHAS DENTRO DO POP UP*/
+.modal-conteudo p {
+  margin-bottom: 14px; /* espaço entre linhas */
+  line-height: 1.5;
+}
+
+/* LINKS DENTRO DO POP UP */
+.modal-conteudo a {
+  color: #000000;          /* preto */
+  text-decoration: underline;  /* sublinhado */
+  font-weight: 500;
+}
+
+.modal-conteudo a:hover {
+  text-decoration: underline;
+}
+
+
+/* Link de informações do clube dentro card */
+.link-info {
+  display: inline-block; /* exibe como bloco inline */
+  margin-top: 8px; /* espaçamento superior */
+  background-color: #003366; /* cor de fundo */
+  color: white; /* cor do texto */
+  padding: 6px 12px; /* espaçamento interno */
+  border-radius: 5px; /* bordas arredondadas */
+  text-decoration: none; /* remove sublinhado */
+  transition: 0.3s; /* transição suave */
+  color: white; /* cor do texto */
+  text-decoration: none; /* remove sublinhado */ 
+  position: relative;
+  z-index: 10;
+  pointer-events: auto; /* permite clique */
 }
 
 
