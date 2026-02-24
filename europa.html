@@ -2024,10 +2024,63 @@
   <script src="clubes-dados.js"></script>
   <script src="pesquisa-script.js"></script>
   <script src="destaque-clube.js"></script>
-
+  <script src="modal-clube.js"></script>
   <script>
     document.getElementById('ano').textContent = new Date().getFullYear();
   </script>
+
+  <!-- MODAL PADRÃO CLUBES -->
+  <div id="modal-clube" class="modal">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-box">
+
+      <button class="fechar-modal" id="fechar-modal">✖</button>
+
+      <!-- LOGO DO CLUBE -->
+      <div class="modal-topo">
+        <img id="modal-escudo" class="escudo-clube" src="" alt="">
+      </div>
+
+      <!-- CONTEÚDO -->
+      <div class="modal-conteudo">
+
+        <h2 id="modal-nome" class="modal-nome"></h2>
+        
+        <p><strong>História:</strong></p>
+        <p id="modal-historia"></p>
+
+        <p>
+          <strong>Mascote:</strong>
+          <a id="modal-mascote-link" href="#" target="_blank">
+            <span id="modal-mascote-nome"></span>
+          </a>
+        </p>
+
+        <p><strong>País:</strong> <span id="modal-pais"></span></p>
+
+        <p><strong>Fundação:</strong> <span id="modal-fundacao"></span></p>
+
+        <p>
+          <strong>Estádio:</strong>
+          <a id="modal-estadio-link" href="#" target="_blank">
+            <span id="modal-estadio-nome"></span>
+          </a>
+        </p>
+
+        <p>
+          <strong>Títulos:</strong> 
+          <span id="modal-titulos"></span>
+        </p>
+
+        <p>
+          <strong>Site:</strong>
+          <a id="modal-site" href="#" target="_blank"></a>
+        </p>
+
+      </div>
+    </div>
+  </div>  
 </body>
 
 </html>
