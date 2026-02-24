@@ -81,6 +81,7 @@ body { /* estilo do corpo da página */
   color: #000000;              /* força texto preto */
   background: white;           /* fundo branco */           
   border-radius: 12px;        /* bordas arredondadas */
+  padding: 20px;          /* espaçamento interno */
   box-shadow: 0 4px 12px rgba(56, 10, 68, 0.1); /* sombra suave */
   overflow: hidden;          /* esconde overflow */
   transition: transform 0.2s ease; /* animação suave */
@@ -480,7 +481,6 @@ text-decoration: none; /* remove sublinhado */
 .modal-conteudo a:hover {
   text-decoration: underline;
 }
-
 
 /* Link de informações do clube dentro card */
 .link-info {
