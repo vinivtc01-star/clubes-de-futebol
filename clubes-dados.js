@@ -317,7 +317,7 @@ const CLUBES = [
     { nome: "Municipal Mejillones", id: "municipal-mejillones-chi", pais: "CHI", pagina: "america-sul.html" },
     { nome: "Rodelindo Román", id: "rodelindo-roman-chi", pais: "CHI", pagina: "america-sul.html" },
     { nome: "Deportes Ovalle", id: "deportes-ovalle-chi", pais: "CHI", pagina: "america-sul.html" },
-    { nome: "Deportes Maipo Quilicura", id:"deportes-maipo-quilicura-chi", pais:"CHI", pagina:"america-sul.html"},
+    { nome: "Deportes Maipo Quilicura", id: "deportes-maipo-quilicura-chi", pais: "CHI", pagina: "america-sul.html" },
     { nome: "", id: "", pais: "CHI", pagina: "america-sul.html" },
     { nome: "", id: "", pais: "CHI", pagina: "america-sul.html" },
 
