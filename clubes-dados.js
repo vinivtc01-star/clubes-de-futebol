@@ -506,7 +506,7 @@ const CLUBES = [
     { nome: "Pacífico", id:"pacifico-per" , pais:"PER" , pagina:"america-sul.html"},
     { nome: "San Simón", id: "san-simon-per", pais: "PER", pagina: "america-sul.html" },
     { nome: "Atlético Torino", id: "atletico-torino-per", pais: "PER", pagina: "america-sul.html" },
-    { nome: "Willy Serrato", id: "willy-serrato-per", pais: "PER", pagina: "america-sul.html" },
+    { nome: "Serrato Pacasmayo", id: "serrato-pacasmayo-per", pais: "PER", pagina: "america-sul.html" },
     { nome: "Sport Victoria", id: "sport-victoria-per", pais: "PER", pagina: "america-sul.html" },
     { nome: "Coronel Bolognesi", id: "coronel-bolognesi-per", pais: "PER", pagina: "america-sul.html" },
     { nome: "Bentin Tacna Heroica", id: "bentin-tacna-heroica-per", pais: "PER", pagina: "america-sul.html" },
