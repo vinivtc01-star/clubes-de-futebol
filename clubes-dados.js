@@ -531,7 +531,7 @@ const CLUBES = [
     /* Clubes do Uruguai */
     { nome: "Nacional-URU", id: "nacional-uru", pais: "URU", pagina: "america-sul.html" },
     { nome: "Peñarol", id: "penarol-uru", pais: "URU", pagina: "america-sul.html" },
-    { nome: "Artigas Sport Clube", id: "artigas-sport-clube-uru", pais: "URU", pagina: "america-sul.html" },
+    { nome: "Artigas", id: "artigas-uru", pais: "URU", pagina: "america-sul.html" },
     { nome: "Bella Vista", id: "bella-vista-uru", pais: "URU", pagina: "america-sul.html" },
     { nome: "Central Español", id: "central-espanol-uru", pais: "URU", pagina: "america-sul.html" },
     { nome: "Cerro", id: "cerro-uru", pais: "URU", pagina: "america-sul.html" },
